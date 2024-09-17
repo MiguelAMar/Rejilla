@@ -1,0 +1,1 @@
+Carpeta para guardar los Excel y Word generados en las exportaciones.
