@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="etAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="etAciertos.Text" xml:space="preserve">
+    <value>Hits:</value>
+  </data>
+  <data name="etFallos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="etFallos.Text" xml:space="preserve">
+    <value>Fails:</value>
+  </data>
+  <data name="etBotonesTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="etBotonesTotal.Text" xml:space="preserve">
+    <value>Total Buttons:</value>
+  </data>
+  <data name="etAciertosCasillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="etAciertosCasillas.Text" xml:space="preserve">
+    <value>Percentage Absolut Hits:</value>
+  </data>
+  <data name="etAciertosErrores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="etAciertosErrores.Text" xml:space="preserve">
+    <value>Percentage Relative Hits:</value>
+  </data>
+  <data name="etErroresAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="etErroresAciertos.Text" xml:space="preserve">
+    <value>Percentage Relative Fails:</value>
+  </data>
+  <data name="etErroresCasillasTotales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 208</value>
+  </data>
+  <data name="etErroresCasillasTotales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="etErroresCasillasTotales.Text" xml:space="preserve">
+    <value>Percentage Absolut Fails:</value>
+  </data>
+  <data name="etEficacia.Text" xml:space="preserve">
+    <value>Efficacy:</value>
+  </data>
+  <data name="etEfectividad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="etEfectividad.Text" xml:space="preserve">
+    <value>Effectiveness:</value>
+  </data>
+  <data name="etValorAciertosErrores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 180</value>
+  </data>
+  <data name="etValorErroresAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 234</value>
+  </data>
+  <data name="etValorErroresCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 207</value>
+  </data>
+  <data name="etVAlorEficacia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 261</value>
+  </data>
+  <data name="etValorEfectividad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 288</value>
+  </data>
+  <data name="pictureBoxAciertosCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 153</value>
+  </data>
+  <data name="pictureBoxAciertosErrores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 180</value>
+  </data>
+  <data name="pictureBoxErroresAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 234</value>
+  </data>
+  <data name="pictureBoxErroresCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 207</value>
+  </data>
+  <data name="pictureBoxEficacia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 261</value>
+  </data>
+  <data name="pictureBoxEfectividad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 288</value>
+  </data>
+  <data name="et0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 137</value>
+  </data>
+  <data name="et100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 137</value>
+  </data>
+  <data name="btAceptar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 322</value>
+  </data>
+  <data name="btAceptar.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>531, 350</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+</root>

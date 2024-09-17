@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gbPais.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="gbEdad.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="rbMujer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="rbMujer.Text" xml:space="preserve">
+    <value>Woman</value>
+  </data>
+  <data name="rbHombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="rbHombre.Text" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="gbSexo.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="etDeporte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="etDeporte.Text" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="etPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="etPosicion.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="gbDeporte.Text" xml:space="preserve">
+    <value>Sport and Position</value>
+  </data>
+  <data name="etInformacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 15</value>
+  </data>
+  <data name="etInformacion.Text" xml:space="preserve">
+    <value>Select data and click export.</value>
+  </data>
+  <data name="btExportar.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="btCancelar.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btNoSelec.Text" xml:space="preserve">
+    <value>None Field</value>
+  </data>
+  <data name="btSelec.Text" xml:space="preserve">
+    <value>Open Files</value>
+  </data>
+  <data name="rbAbecedarioExportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="rbAbecedarioExportar.Text" xml:space="preserve">
+    <value>Alphabet</value>
+  </data>
+  <data name="rbImagenesExportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="rbImagenesExportar.Text" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="rbLetrasExportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="rbLetrasExportar.Text" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="rbColoresExportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="rbColoresExportar.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="rbNumericaExportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="rbNumericaExportar.Text" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="gbTipoRejilla.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="etInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="etInicio.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="etFinal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="etFinal.Text" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="gbAlfabeto.Text" xml:space="preserve">
+    <value>Alphabet</value>
+  </data>
+  <data name="etFechaInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="etFechaInicio.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="etFechaFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="etFechaFin.Text" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="gbFecha.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="rbPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="rbPais.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="rbSexo.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="rbEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="rbEdad.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="rbDP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 43</value>
+  </data>
+  <data name="rbDP.Text" xml:space="preserve">
+    <value>Sport
+and
+Position</value>
+  </data>
+  <data name="rbPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="rbPosicion.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="rbDeporte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="rbDeporte.Text" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="rbFecha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
+  <data name="rbFecha.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="rbTipoRejilla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="rbTipoRejilla.Text" xml:space="preserve">
+    <value>Type of grid</value>
+  </data>
+  <data name="rbApellido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="rbApellido.Text" xml:space="preserve">
+    <value>Lastname</value>
+  </data>
+  <data name="gbImportarPorCampo.Text" xml:space="preserve">
+    <value>Export for field</value>
+  </data>
+  <data name="etLatencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 20</value>
+  </data>
+  <data name="etLatencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="etLatencia.Text" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="cbPorcentajes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="cbPorcentajes.Text" xml:space="preserve">
+    <value>Percents</value>
+  </data>
+  <data name="cbEmparejar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="cbEmparejar.Text" xml:space="preserve">
+    <value>Match Type</value>
+  </data>
+  <data name="cbLateralidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="cbLateralidad.Text" xml:space="preserve">
+    <value>LAT.</value>
+  </data>
+  <data name="cbSexo.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="cbEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="cbEdad.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="cbPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="cbPosicion.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="cbDeporte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="cbDeporte.Text" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="cbAciertoFallos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="cbAciertoFallos.Text" xml:space="preserve">
+    <value>Hits/ Failure</value>
+  </data>
+  <data name="cbMetronomo.Text" xml:space="preserve">
+    <value>Metronome</value>
+  </data>
+  <data name="cbTodos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="cbTodos.Text" xml:space="preserve">
+    <value>All fields</value>
+  </data>
+  <data name="cbTipoBoton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="cbTipoBoton.Text" xml:space="preserve">
+    <value>Type Button</value>
+  </data>
+  <data name="cbMusica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="cbMusica.Text" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="cbObservaciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="cbObservaciones.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="cbTiemposGrafica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="cbTiemposGrafica.Text" xml:space="preserve">
+    <value>Graphics Time</value>
+  </data>
+  <data name="cbGrafica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="cbGrafica.Text" xml:space="preserve">
+    <value>Graphic/Match</value>
+  </data>
+  <data name="cbGrosor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="cbGrosor.Text" xml:space="preserve">
+    <value>Thickness </value>
+  </data>
+  <data name="cbDistraccionLinea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="cbDistraccionLinea.Text" xml:space="preserve">
+    <value>Distraction Line</value>
+  </data>
+  <data name="cbAleatorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="cbAleatorio.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="cbTiempoLimite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="cbTiempoLimite.Text" xml:space="preserve">
+    <value>Time out</value>
+  </data>
+  <data name="cbTipoRejilla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="cbTipoRejilla.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="cbFecha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="cbFecha.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="cbApellidos.Text" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="cbNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="cbNombre.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gbCampos.Text" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Export Data</value>
+  </data>
+  <data name="rbNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="rbNombre.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+</root>

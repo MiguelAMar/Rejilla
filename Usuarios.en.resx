@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="etUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="etUsuario.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="btCargarUsuario.Text" xml:space="preserve">
+    <value>Load user</value>
+  </data>
+  <data name="btCancelar.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="etApellidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="etApellidos.Text" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="etCodigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="etCodigo.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="etDeportes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="etDeportes.Text" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="etEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="etEdad.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="etPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="etPosicion.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="etPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="etPais.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="btActualizar.Text" xml:space="preserve">
+    <value>Update User</value>
+  </data>
+  <data name="btInsertarUsuario.Text" xml:space="preserve">
+    <value>Insert User</value>
+  </data>
+  <data name="rbDerecha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="rbDerecha.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="rbIzquierda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="rbIzquierda.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="gbLateralidad.Text" xml:space="preserve">
+    <value>Laterality</value>
+  </data>
+  <data name="rbFemenino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="rbFemenino.Text" xml:space="preserve">
+    <value>Woman</value>
+  </data>
+  <data name="rbHombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="rbHombre.Text" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="gbGénero.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="gbRejillas.Text" xml:space="preserve">
+    <value>User Grids</value>
+  </data>
+  <data name="btCargarRejillasUsuario.Text" xml:space="preserve">
+    <value>Load User Grids</value>
+  </data>
+  <data name="btExportarRejillasExcel.Text" xml:space="preserve">
+    <value>Export grids to excel</value>
+  </data>
+  <data name="btComparar.Text" xml:space="preserve">
+    <value>Compare grids</value>
+  </data>
+  <data name="btAceptar.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="gbUsuarios.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Search by content use % at the beginning</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Exact search</value>
+  </data>
+  <data name="rbTodasLasFilas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="rbTodasLasFilas.Text" xml:space="preserve">
+    <value>Load all users</value>
+  </data>
+  <data name="rbPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="rbPosicion.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="rbPaís.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="rbPaís.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="rbEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 19</value>
+  </data>
+  <data name="rbEdad.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="rbDeportes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="rbDeportes.Text" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="rbGenero.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="rbLateralidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 19</value>
+  </data>
+  <data name="rbLateralidad.Text" xml:space="preserve">
+    <value>Laterality</value>
+  </data>
+  <data name="rbApellidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 19</value>
+  </data>
+  <data name="rbApellidos.Text" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="rbNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="rbNombre.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="tabPageUsuarios.Text" xml:space="preserve">
+    <value>Search user</value>
+  </data>
+  <data name="rbTodasRejillasGenero.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="rbTodasRejillasMujer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="rbTodasRejillasMujer.Text" xml:space="preserve">
+    <value>Woman</value>
+  </data>
+  <data name="rbTodasRejillasHombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="rbTodasRejillasHombre.Text" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="gbTodasRejillasGenero.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="btBuscarDosCampos.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AQMBAT8ASf/Z
+</value>
+  </data>
+  <data name="etFechaInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="etFechaInicio.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="etFechaFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="etFechaFin.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="rbTodasRejillasTodaTabla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 19</value>
+  </data>
+  <data name="rbTodasRejillasTodaTabla.Text" xml:space="preserve">
+    <value>Reset Search</value>
+  </data>
+  <data name="rbTodasRejillasPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="rbTodasRejillasPais.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="rbTodasRejillasEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 19</value>
+  </data>
+  <data name="rbTodasRejillasEdad.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="rbTodasRejillasDP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 19</value>
+  </data>
+  <data name="rbTodasRejillasDP.Text" xml:space="preserve">
+    <value>Sport &amp; Position</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="rbTodasRejillasFecha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="rbTodasRejillasFecha.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.Text" xml:space="preserve">
+    <value>Grid Type</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.Text" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="tabPageRejillas.Text" xml:space="preserve">
+    <value>Search All Grids</value>
+  </data>
+  <data name="btCargarRejilla.Text" xml:space="preserve">
+    <value>Load grid to program</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+</root>

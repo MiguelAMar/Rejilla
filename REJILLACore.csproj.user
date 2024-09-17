@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CompararRejillas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ControlTachado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DialogoColoresPaLetras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DialogoImagenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DialogoLetras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DialogoTodasWingdings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EleccionRegistroFichero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Emparejar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExportarDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Informacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MetiendoDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MostrarWindings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Observaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Porcentajes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProgramarColores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Rejilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaAbecedario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaAleatoriaTiempoLimite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaColores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaDistraccionLinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaImagenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaLetras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaNumerica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RejillaWingdings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WaitExportarExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="ExportarDatos.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MetiendoDatos.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MetiendoDatos.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

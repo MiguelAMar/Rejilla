@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btCargarColores.Text" xml:space="preserve">
+    <value>Cargar Plantilla</value>
+  </data>
+  <data name="&gt;&gt;btColor13.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btGuardarColores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btColor11.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btColor12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btCargarColores.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btColoresCambiarColor.Name" xml:space="preserve">
+    <value>btColoresCambiarColor</value>
+  </data>
+  <data name="&gt;&gt;btAceptarColores.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btColor15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btColor8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btGuardarColores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 118</value>
+  </data>
+  <data name="btBorrarSeleccionColores.Text" xml:space="preserve">
+    <value>Deseleccionar  Todos</value>
+  </data>
+  <data name="&gt;&gt;btColor15.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodosColores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColor14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 118</value>
+  </data>
+  <data name="btColor4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="btColor12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 118</value>
+  </data>
+  <data name="&gt;&gt;btColor12.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btGuardarColores.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btColor5.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btColor14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btColor6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btColor11.Name" xml:space="preserve">
+    <value>btColor11</value>
+  </data>
+  <data name="btColor7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btCargarColores.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btColor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="btCancelarColores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;btColor1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btCancelarColores.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btAceptarColores.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="&gt;&gt;btColor15.Name" xml:space="preserve">
+    <value>btColor15</value>
+  </data>
+  <data name="&gt;&gt;btColor10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodosColores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btGuardarColores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 52</value>
+  </data>
+  <data name="&gt;&gt;btColor9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btAceptarColores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCancelarColores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btColor3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="&gt;&gt;btColor11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btGuardarColores.Text" xml:space="preserve">
+    <value>Guardar Plantilla</value>
+  </data>
+  <data name="&gt;&gt;btColor10.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btColor7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btCancelarColores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 230</value>
+  </data>
+  <data name="&gt;&gt;btColor9.Name" xml:space="preserve">
+    <value>btColor9</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Plantilla de Colores</value>
+  </data>
+  <data name="&gt;&gt;btColor8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;btColor5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColoresBorrarColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 51</value>
+  </data>
+  <data name="btColor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btBorrarSeleccionColores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColor2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btCargarColores.Name" xml:space="preserve">
+    <value>btCargarColores</value>
+  </data>
+  <data name="btColor5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btBorrarSeleccionColores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 201</value>
+  </data>
+  <data name="&gt;&gt;btGuardarColores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btCargarColores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodosColores.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btColor3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColor15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColor12.Name" xml:space="preserve">
+    <value>btColor12</value>
+  </data>
+  <data name="&gt;&gt;btColor8.Name" xml:space="preserve">
+    <value>btColor8</value>
+  </data>
+  <data name="btSeleccionarTodosColores.Text" xml:space="preserve">
+    <value>Seleccionar Todos</value>
+  </data>
+  <data name="&gt;&gt;btColor14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btColor9.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btCancelarColores.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btColor10.Name" xml:space="preserve">
+    <value>btColor10</value>
+  </data>
+  <data name="&gt;&gt;btColor9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColor7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btColor9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btCargarColores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 52</value>
+  </data>
+  <data name="&gt;&gt;btColor5.Name" xml:space="preserve">
+    <value>btColor5</value>
+  </data>
+  <data name="btColor12.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btColor14.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btCancelarColores.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btBorrarSeleccionColores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 53</value>
+  </data>
+  <data name="btColor1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btColoresCambiarColor.Text" xml:space="preserve">
+    <value>Cambiar Color</value>
+  </data>
+  <data name="btColor13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 118</value>
+  </data>
+  <data name="&gt;&gt;btColor14.Name" xml:space="preserve">
+    <value>btColor14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;btColor6.Name" xml:space="preserve">
+    <value>btColor6</value>
+  </data>
+  <data name="&gt;&gt;btCancelarColores.Name" xml:space="preserve">
+    <value>btCancelarColores</value>
+  </data>
+  <data name="btColor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btBorrarSeleccionColores.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btColor8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 70</value>
+  </data>
+  <data name="&gt;&gt;btColor3.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btColoresCambiarColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 22</value>
+  </data>
+  <data name="btColor12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btColor15.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btColor8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btColor11.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btColor14.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btColor3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btColoresBorrarColor.Text" xml:space="preserve">
+    <value>Borrar Color</value>
+  </data>
+  <data name="&gt;&gt;btColor4.Name" xml:space="preserve">
+    <value>btColor4</value>
+  </data>
+  <data name="&gt;&gt;btColor13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColor7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 70</value>
+  </data>
+  <data name="btColor8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btGuardarColores.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btColor1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btColor10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColor2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btColor5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 22</value>
+  </data>
+  <data name="&gt;&gt;btColor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColoresBorrarColor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DialogoColoresPaLetras</value>
+  </data>
+  <data name="btColoresBorrarColor.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btColor1.Name" xml:space="preserve">
+    <value>btColor1</value>
+  </data>
+  <data name="btAceptarColores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;btColor7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodosColores.Name" xml:space="preserve">
+    <value>btSeleccionarTodosColores</value>
+  </data>
+  <data name="&gt;&gt;btColor3.Name" xml:space="preserve">
+    <value>btColor3</value>
+  </data>
+  <data name="&gt;&gt;btColor2.Name" xml:space="preserve">
+    <value>btColor2</value>
+  </data>
+  <data name="btCargarColores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 202</value>
+  </data>
+  <data name="&gt;&gt;btColor12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColor9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 70</value>
+  </data>
+  <data name="&gt;&gt;btBorrarSeleccionColores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btColor7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btColor13.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btAceptarColores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btColor13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btColor7.Name" xml:space="preserve">
+    <value>btColor7</value>
+  </data>
+  <data name="btSeleccionarTodosColores.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btColoresBorrarColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColor6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btSeleccionarTodosColores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 53</value>
+  </data>
+  <data name="&gt;&gt;btColor4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btColor15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 118</value>
+  </data>
+  <data name="&gt;&gt;btCargarColores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColor11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 118</value>
+  </data>
+  <data name="btSeleccionarTodosColores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 201</value>
+  </data>
+  <data name="&gt;&gt;btColor3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btColor15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColoresCambiarColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColoresBorrarColor.Name" xml:space="preserve">
+    <value>btColoresBorrarColor</value>
+  </data>
+  <data name="&gt;&gt;btColor1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btColor2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btColor11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btColoresCambiarColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 52</value>
+  </data>
+  <data name="&gt;&gt;btColor14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColor4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColor11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btColor3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btColoresCambiarColor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btColor9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btColoresBorrarColor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btBorrarSeleccionColores.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btColor5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btColor6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btColoresCambiarColor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btColor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 22</value>
+  </data>
+  <data name="&gt;&gt;btCancelarColores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btColor10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="&gt;&gt;btColor5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>471, 266</value>
+  </data>
+  <data name="&gt;&gt;btColor6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btAceptarColores.Name" xml:space="preserve">
+    <value>btAceptarColores</value>
+  </data>
+  <data name="btColoresCambiarColor.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btGuardarColores.Name" xml:space="preserve">
+    <value>btGuardarColores</value>
+  </data>
+  <data name="btColor4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btColor10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 70</value>
+  </data>
+  <data name="&gt;&gt;btColor13.Name" xml:space="preserve">
+    <value>btColor13</value>
+  </data>
+  <data name="btColor13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btColor4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="btColor6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btColor8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btColor4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btColoresBorrarColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 202</value>
+  </data>
+  <data name="btAceptarColores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 201</value>
+  </data>
+  <data name="btColor6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 70</value>
+  </data>
+  <data name="&gt;&gt;btBorrarSeleccionColores.Name" xml:space="preserve">
+    <value>btBorrarSeleccionColores</value>
+  </data>
+  <data name="btAceptarColores.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btColor10.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

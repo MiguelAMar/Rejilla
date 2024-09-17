@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cad01" xml:space="preserve">
+    <value>Valor Mínimo</value>
+  </data>
+  <data name="cad02" xml:space="preserve">
+    <value>Valor Máximo</value>
+  </data>
+  <data name="cad03" xml:space="preserve">
+    <value>Valor de FILA/COLUMNA entre 1 --&gt; 15</value>
+  </data>
+  <data name="cad04" xml:space="preserve">
+    <value>Ficheros de sonido (*.wav; *.mp3) |*.wav;*.mp3</value>
+  </data>
+  <data name="cad05" xml:space="preserve">
+    <value>Reproducir Lista/Metrónomo</value>
+  </data>
+  <data name="cad06" xml:space="preserve">
+    <value>Reproducir Metrónomo</value>
+  </data>
+  <data name="cad07" xml:space="preserve">
+    <value>Reproducir Lista</value>
+  </data>
+  <data name="cad08" xml:space="preserve">
+    <value>Lista de Música (*.m3u; *.wpl)|*.m3u;*.wpl</value>
+  </data>
+  <data name="cad09" xml:space="preserve">
+    <value>Incremento de los valores</value>
+  </data>
+  <data name="cad10" xml:space="preserve">
+    <value>Decremento de los valores</value>
+  </data>
+  <data name="cad11" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="cad12" xml:space="preserve">
+    <value>Lista de Items a tachar en la rejilla</value>
+  </data>
+  <data name="cad13" xml:space="preserve">
+    <value>Ficheros de datos tbl (*.tbl)|*.tbl</value>
+  </data>
+  <data name="car1" xml:space="preserve">
+    <value>Para actualizar un usuario primero seleccionarlo haciendo doble click al principio de la tabla, se cargaran los datos del usuario arriba.</value>
+  </data>
+  <data name="car10" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="car11" xml:space="preserve">
+    <value>Tipo Rejilla</value>
+  </data>
+  <data name="car12" xml:space="preserve">
+    <value>Desde</value>
+  </data>
+  <data name="car13" xml:space="preserve">
+    <value>Hasta</value>
+  </data>
+  <data name="car14" xml:space="preserve">
+    <value>La fecha de inicio debe ser menor o igual a la fecha de fin.</value>
+  </data>
+  <data name="car15" xml:space="preserve">
+    <value>Solo se puede seleccionar una rejilla para cargar en el programa.</value>
+  </data>
+  <data name="car16" xml:space="preserve">
+    <value>Versión 2.0.
+Actualizada a NET 8.0. 
+
+Contacto del desarrollador:
+mamj78@outlook.com</value>
+  </data>
+  <data name="car17" xml:space="preserve">
+    <value>BackUp Realizado Correctamente. </value>
+  </data>
+  <data name="car18" xml:space="preserve">
+    <value>BackUp Restaurado Correctamente.</value>
+  </data>
+  <data name="car19" xml:space="preserve">
+    <value>Error Realizando el BackUp. </value>
+  </data>
+  <data name="car2" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="car20" xml:space="preserve">
+    <value>BackUp Restaurado Correctamente. </value>
+  </data>
+  <data name="car21" xml:space="preserve">
+    <value>Error Restaurando BackUp.</value>
+  </data>
+  <data name="car22" xml:space="preserve">
+    <value>Base de Datos Creada Correctamente.</value>
+  </data>
+  <data name="car23" xml:space="preserve">
+    <value>Error Creando Base de Datos</value>
+  </data>
+  <data name="car24" xml:space="preserve">
+    <value>Todos dos Datos han sido borrados.</value>
+  </data>
+  <data name="car25" xml:space="preserve">
+    <value>Todos los datos, excepto los usuarios, han sido borrados. </value>
+  </data>
+  <data name="car3" xml:space="preserve">
+    <value>Debe seleccionar un usuario de la tabla superior</value>
+  </data>
+  <data name="car4" xml:space="preserve">
+    <value>Al pulsar el botón cargar usuario, se cargan los datos del usuario en la pantalla principal, por lo que debe seleccionar un usuario haciendo doble click al principio de la fila de la tabla del usuario  y comprobar que se completan los campos superiores.</value>
+  </data>
+  <data name="car5" xml:space="preserve">
+    <value>Todas las rejillas</value>
+  </data>
+  <data name="car6" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="car7" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="car8" xml:space="preserve">
+    <value>Deporte</value>
+  </data>
+  <data name="car9" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="empa00" xml:space="preserve">
+    <value>Error Emparejar: No caben todas las columnas en pantalla. Indice menos columnas o un botón mas pequeño.</value>
+  </data>
+  <data name="error00" xml:space="preserve">
+    <value>Error inesperado. Se cerrará la aplicación.</value>
+  </data>
+  <data name="error01" xml:space="preserve">
+    <value>Error Tamaño: No caben todas las columnas en pantalla, indique menos columnas o eliga un botón más pequeño.</value>
+  </data>
+  <data name="error02" xml:space="preserve">
+    <value>Error Tamaño: No caben todas las filas en pantalla, indique menos filas o eliga un botón más pequeño.</value>
+  </data>
+  <data name="error03" xml:space="preserve">
+    <value>Error Tiempo: Falta el valor del tiempo Aleatorio.</value>
+  </data>
+  <data name="error04" xml:space="preserve">
+    <value>Error Colores: No se han escogido los colores que hay que tachar.</value>
+  </data>
+  <data name="error05" xml:space="preserve">
+    <value>Error Letras: La lista de Items no puede ser vacia.</value>
+  </data>
+  <data name="error06" xml:space="preserve">
+    <value>Error Letras: No se ha seleccionado letras para tachar, seleccione al menos una.</value>
+  </data>
+  <data name="error07" xml:space="preserve">
+    <value>Error Abecedario: No se ha indicado un valor inicial para el Abecedario</value>
+  </data>
+  <data name="error08" xml:space="preserve">
+    <value>Error Imágenes: No hay seleccionada ninguna imagen para tachar en la rejilla.</value>
+  </data>
+  <data name="error09" xml:space="preserve">
+    <value>Error Wingdings: No se ha seleccionado ningun item para crear la rejilla.</value>
+  </data>
+  <data name="error10" xml:space="preserve">
+    <value>Error Wingdings: No se ha seleccionado ningun item para tachar en la rejilla</value>
+  </data>
+  <data name="error11" xml:space="preserve">
+    <value>Error fuera de rango: El rango de valores de los botones de la rejilla es de 0 a 999. Decremente el valor inicial y/o disminuya el valor del incremento. SUGERENCIA: Manteniendo el incremento usar como valor inicial:</value>
+  </data>
+  <data name="error12" xml:space="preserve">
+    <value>Error fuera de rango: El rango de valores de los botones de la rejilla es de 0 a 999. Incremente el valor inicial y/o disminuya el valor del decremento. SUGERENCIA: Manteniendo el decremento usar como valor inicial: </value>
+  </data>
+  <data name="error13" xml:space="preserve">
+    <value>Hay colores para tachar que no pertenecen a la plantilla de colores. Estos colores no saldrán en la rejilla final</value>
+  </data>
+  <data name="error14" xml:space="preserve">
+    <value>Elimine los colores que no pertenecen a la plantilla o eliga una cantidad de botones (%) a tachar</value>
+  </data>
+  <data name="error15" xml:space="preserve">
+    <value>Error Colores de Fondo: No se puede usar con la rejilla de imágenes. Eliga otro tipo de rejilla o desactive los colores de fondo.</value>
+  </data>
+  <data name="error16" xml:space="preserve">
+    <value>Error Colores de Fondo: No hay ningun color seleccionado para el fondo de la rejilla</value>
+  </data>
+  <data name="error17" xml:space="preserve">
+    <value>Error Metronomo: No se ha introducido el valor del metrónomo</value>
+  </data>
+  <data name="error18" xml:space="preserve">
+    <value>Error Música: La lista de música no puede estar vacía</value>
+  </data>
+  <data name="error19" xml:space="preserve">
+    <value>Error Inesperado</value>
+  </data>
+  <data name="error20" xml:space="preserve">
+    <value>Error Tiempo: Falta el valor del tiempo Límite.</value>
+  </data>
+  <data name="error21" xml:space="preserve">
+    <value>El archivo de sonido esta dañado</value>
+  </data>
+  <data name="error22" xml:space="preserve">
+    <value>WINDINGS: No hay ningún item para identificar por el usuario</value>
+  </data>
+  <data name="error23" xml:space="preserve">
+    <value>No se ha seleccionado ningún registro para cargar</value>
+  </data>
+  <data name="error24" xml:space="preserve">
+    <value>Fichero dañado..........</value>
+  </data>
+  <data name="error25" xml:space="preserve">
+    <value>Error CHECKED: formato erroneo o fichero dañado.</value>
+  </data>
+  <data name="error26" xml:space="preserve">
+    <value>Error TIPOREJILLA: formato del fichero erroneo o fichero dañado</value>
+  </data>
+  <data name="error27" xml:space="preserve">
+    <value>Esta programado que se intercambie el color y/o texto y no hay colores de fondo seleccionados para los botones</value>
+  </data>
+  <data name="error28" xml:space="preserve">
+    <value>Esta programado que se intercambie el color y/o texto. Seleccionar coloes de fondo para los botones</value>
+  </data>
+  <data name="error29" xml:space="preserve">
+    <value>Estra programado que se intercambie el color y/o texto y no está seleccionada la casilla colores de fondo. Seleccionalá o modifica las opciones de programación de la rejilla</value>
+  </data>
+  <data name="error30" xml:space="preserve">
+    <value>El valor Aleatorio tiene que ser mayor que 0</value>
+  </data>
+  <data name="error31" xml:space="preserve">
+    <value>El valor Tiempo Límite tiene que ser mayor que 0</value>
+  </data>
+  <data name="error32" xml:space="preserve">
+    <value>El valor Metrónomo tiene que ser mayor que 0</value>
+  </data>
+  <data name="error33" xml:space="preserve">
+    <value>Error en la aplicación Office</value>
+  </data>
+  <data name="exp01" xml:space="preserve">
+    <value>EXPORTAR FICHERO: No se encuentra el fichero</value>
+  </data>
+  <data name="exp02" xml:space="preserve">
+    <value>EXPORTAR FICHERO: Error en la lectura del fichero</value>
+  </data>
+  <data name="exp03" xml:space="preserve">
+    <value>EXPORTAR FICHERO: No tiene permisos para abrir este fichero</value>
+  </data>
+  <data name="exp04" xml:space="preserve">
+    <value>Tiene que ser menor o igual que DESDE</value>
+  </data>
+  <data name="exp05" xml:space="preserve">
+    <value>ERROR: DESDE es mayor que HASTA</value>
+  </data>
+  <data name="exp06" xml:space="preserve">
+    <value>Tiene que ser mayor o igual que HASTA</value>
+  </data>
+  <data name="exp07" xml:space="preserve">
+    <value>ERROR: Hasta es menor que desde</value>
+  </data>
+  <data name="exp08" xml:space="preserve">
+    <value>La Fecha de Inicio debe ser menor o igual a la Fecha de Fin</value>
+  </data>
+  <data name="exp09" xml:space="preserve">
+    <value>Fecha Inicio debe ser menor o igual a Fecha Fin</value>
+  </data>
+  <data name="exp10" xml:space="preserve">
+    <value>La Fecha de Fin debe ser mayor o igual a la Fecha de Inicio</value>
+  </data>
+  <data name="exp11" xml:space="preserve">
+    <value>Fecha Final debe ser mayor o igual a Fecha Inicio</value>
+  </data>
+  <data name="exp12" xml:space="preserve">
+    <value>Introducir rango de exportación. DESDE &lt; = HASTA</value>
+  </data>
+  <data name="exp13" xml:space="preserve">
+    <value>Deporte y Posición</value>
+  </data>
+  <data name="exp14" xml:space="preserve">
+    <value>Introducir Deporte</value>
+  </data>
+  <data name="exp15" xml:space="preserve">
+    <value>Introducir Posición</value>
+  </data>
+  <data name="exp16" xml:space="preserve">
+    <value>Introducir Deporte y Posición</value>
+  </data>
+  <data name="exp17" xml:space="preserve">
+    <value>Seleccionar el tipo de la rejilla</value>
+  </data>
+  <data name="exp18" xml:space="preserve">
+    <value>Seleccionar el intervalo de fechas. INICIO &lt;= FIN</value>
+  </data>
+  <data name="exp19" xml:space="preserve">
+    <value>Archivos de datos *.tbl |*.tbl</value>
+  </data>
+  <data name="exp20" xml:space="preserve">
+    <value>Seleccionar archivos para exportar a Excel</value>
+  </data>
+  <data name="exp21" xml:space="preserve">
+    <value>Seleecionar archivos para exportar los datos</value>
+  </data>
+  <data name="exp22" xml:space="preserve">
+    <value>Archivos cargados con éxito</value>
+  </data>
+  <data name="exp23" xml:space="preserve">
+    <value>Seleccionados todos los campos</value>
+  </data>
+  <data name="exp24" xml:space="preserve">
+    <value>Deseleccionados todos los campos</value>
+  </data>
+  <data name="exp25" xml:space="preserve">
+    <value>Se debe seleccionar al menos un campo</value>
+  </data>
+  <data name="exp26" xml:space="preserve">
+    <value>Introducir rango de exportación. DESDE &lt; = HASTA</value>
+  </data>
+  <data name="exp27" xml:space="preserve">
+    <value>ERROR: Nombre o apellido. Los campos DESDE y / o HASTA no pueden ser vacios</value>
+  </data>
+  <data name="exp28" xml:space="preserve">
+    <value>Se debe seleccionar al menos un campo para exportar</value>
+  </data>
+  <data name="exp29" xml:space="preserve">
+    <value>Seleccionar ficheros para exportar datos</value>
+  </data>
+  <data name="exp30" xml:space="preserve">
+    <value>No se ha seleccionado ningún fichero para exportar los datos</value>
+  </data>
+  <data name="exp31" xml:space="preserve">
+    <value>El campo Posición no puede ser vacío</value>
+  </data>
+  <data name="exp32" xml:space="preserve">
+    <value>Este campo no puede ser vacío</value>
+  </data>
+  <data name="exp33" xml:space="preserve">
+    <value>El campo Deporte no puede ser vacío</value>
+  </data>
+  <data name="exp34" xml:space="preserve">
+    <value>Los campos no pueden ser vacíos</value>
+  </data>
+  <data name="exp35" xml:space="preserve">
+    <value>Deporte</value>
+  </data>
+  <data name="exp36" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="exp37" xml:space="preserve">
+    <value>Introducir rango de edad. DESDE &lt;= HASTA</value>
+  </data>
+  <data name="exp38" xml:space="preserve">
+    <value>Introducir el país</value>
+  </data>
+  <data name="exp39" xml:space="preserve">
+    <value>Seleccionar el género</value>
+  </data>
+  <data name="exp40" xml:space="preserve">
+    <value>Introducir el rango de edad</value>
+  </data>
+  <data name="exp41" xml:space="preserve">
+    <value>Introducir el país</value>
+  </data>
+  <data name="exp42" xml:space="preserve">
+    <value>Introducir el género</value>
+  </data>
+  <data name="exp43" xml:space="preserve">
+    <value>El campo país no puede ser vacío</value>
+  </data>
+  <data name="exp44" xml:space="preserve">
+    <value>Los campos edad no pueden ser vacíos</value>
+  </data>
+  <data name="gra01" xml:space="preserve">
+    <value>Tiempo Total</value>
+  </data>
+  <data name="gra02" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="gra03" xml:space="preserve">
+    <value>Varianza</value>
+  </data>
+  <data name="gra04" xml:space="preserve">
+    <value>Tiempo Corregido</value>
+  </data>
+  <data name="gra05" xml:space="preserve">
+    <value>Corrección</value>
+  </data>
+  <data name="inf01" xml:space="preserve">
+    <value>Informe generado: </value>
+  </data>
+  <data name="inf02" xml:space="preserve">
+    <value>Fecha Realización Ejercicio:   </value>
+  </data>
+  <data name="inf03" xml:space="preserve">
+    <value>Tamaño de la rejilla:  </value>
+  </data>
+  <data name="inf04" xml:space="preserve">
+    <value>Tipo de Rejilla:  </value>
+  </data>
+  <data name="inf05" xml:space="preserve">
+    <value>Tiempo Aleatorio en segundos de intercambio de los botones:   </value>
+  </data>
+  <data name="inf06" xml:space="preserve">
+    <value>Tiempo Límite en segundos para finalizar la rejilla:   </value>
+  </data>
+  <data name="inf07" xml:space="preserve">
+    <value>Tamaño: Botón Tipo   </value>
+  </data>
+  <data name="inf08" xml:space="preserve">
+    <value>Distracciones:  </value>
+  </data>
+  <data name="inf09" xml:space="preserve">
+    <value>Sin Línea</value>
+  </data>
+  <data name="inf10" xml:space="preserve">
+    <value>Línea Horizontal</value>
+  </data>
+  <data name="inf11" xml:space="preserve">
+    <value>Línea Vertical</value>
+  </data>
+  <data name="inf12" xml:space="preserve">
+    <value>Línea Aleatoria</value>
+  </data>
+  <data name="inf13" xml:space="preserve">
+    <value>            Velocidad desplazamiento   </value>
+  </data>
+  <data name="inf14" xml:space="preserve">
+    <value>Rápido</value>
+  </data>
+  <data name="inf15" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="inf16" xml:space="preserve">
+    <value>Lento</value>
+  </data>
+  <data name="inf17" xml:space="preserve">
+    <value>Sin sonido</value>
+  </data>
+  <data name="inf18" xml:space="preserve">
+    <value>            Tiempo en milisegundos</value>
+  </data>
+  <data name="inf19" xml:space="preserve">
+    <value>            Lista de canciones</value>
+  </data>
+  <data name="inf20" xml:space="preserve">
+    <value>TIEMPOS DE LA REJILLA</value>
+  </data>
+  <data name="inf21" xml:space="preserve">
+    <value>No hay observaciones</value>
+  </data>
+  <data name="inf22" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <data name="inf23" xml:space="preserve">
+    <value>Tiempos en tachar cada botón --&gt; Emparejamiento:</value>
+  </data>
+  <data name="inf24" xml:space="preserve">
+    <value>Nombre:  </value>
+  </data>
+  <data name="inf25" xml:space="preserve">
+    <value>Deporte:  </value>
+  </data>
+  <data name="inf26" xml:space="preserve">
+    <value>Posición:  </value>
+  </data>
+  <data name="inf27" xml:space="preserve">
+    <value>            Color:</value>
+  </data>
+  <data name="inf28" xml:space="preserve">
+    <value>            Grosor: </value>
+  </data>
+  <data name="inf29" xml:space="preserve">
+    <value>Metrónomo.</value>
+  </data>
+  <data name="inf30" xml:space="preserve">
+    <value>Música.</value>
+  </data>
+  <data name="inf31" xml:space="preserve">
+    <value>Máximo:   </value>
+  </data>
+  <data name="inf32" xml:space="preserve">
+    <value>Mínimo:   </value>
+  </data>
+  <data name="inf33" xml:space="preserve">
+    <value>Tarea Preliminar:   </value>
+  </data>
+  <data name="inf34" xml:space="preserve">
+    <value>Media corrección:   </value>
+  </data>
+  <data name="inf35" xml:space="preserve">
+    <value>Varianza corrección:   </value>
+  </data>
+  <data name="inf36" xml:space="preserve">
+    <value>OBSERVACIONES</value>
+  </data>
+  <data name="inf37" xml:space="preserve">
+    <value>No hay observaciones.</value>
+  </data>
+  <data name="inf38" xml:space="preserve">
+    <value>Edad:   </value>
+  </data>
+  <data name="inf39" xml:space="preserve">
+    <value>Sexo:   </value>
+  </data>
+  <data name="inf40" xml:space="preserve">
+    <value>País:   </value>
+  </data>
+  <data name="inf41" xml:space="preserve">
+    <value>Hombre</value>
+  </data>
+  <data name="inf42" xml:space="preserve">
+    <value>Mujer</value>
+  </data>
+  <data name="lista1" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lista10" xml:space="preserve">
+    <value>Tipo Botón</value>
+  </data>
+  <data name="lista11" xml:space="preserve">
+    <value>Dist. Línea</value>
+  </data>
+  <data name="lista12" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="lista13" xml:space="preserve">
+    <value>Grosor</value>
+  </data>
+  <data name="lista14" xml:space="preserve">
+    <value>Asc/Des</value>
+  </data>
+  <data name="lista15" xml:space="preserve">
+    <value>Musica</value>
+  </data>
+  <data name="lista16" xml:space="preserve">
+    <value>Metronomo</value>
+  </data>
+  <data name="lista17" xml:space="preserve">
+    <value>Aciertos</value>
+    <comment>igual a txt03</comment>
+  </data>
+  <data name="lista18" xml:space="preserve">
+    <value>Errores</value>
+    <comment>igual a txt04</comment>
+  </data>
+  <data name="lista19" xml:space="preserve">
+    <value>Tiempo Total</value>
+    <comment>gra01</comment>
+  </data>
+  <data name="lista2" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="lista20" xml:space="preserve">
+    <value>Media</value>
+    <comment>gra02</comment>
+  </data>
+  <data name="lista21" xml:space="preserve">
+    <value>Varianza</value>
+  </data>
+  <data name="lista22" xml:space="preserve">
+    <value>T.Corregido</value>
+  </data>
+  <data name="lista23" xml:space="preserve">
+    <value>Correción</value>
+    <comment>gra05</comment>
+  </data>
+  <data name="lista24" xml:space="preserve">
+    <value>Tarea Preliminar</value>
+  </data>
+  <data name="lista25" xml:space="preserve">
+    <value>Media Corrección</value>
+  </data>
+  <data name="lista26" xml:space="preserve">
+    <value>Varianza Corrección</value>
+  </data>
+  <data name="lista27" xml:space="preserve">
+    <value>Maximo</value>
+  </data>
+  <data name="lista28" xml:space="preserve">
+    <value>Mínimo</value>
+  </data>
+  <data name="lista29" xml:space="preserve">
+    <value>Botón</value>
+  </data>
+  <data name="lista3" xml:space="preserve">
+    <value>Deporte</value>
+  </data>
+  <data name="lista30" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="lista31" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="lista32" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="lista33" xml:space="preserve">
+    <value>Lateralidad</value>
+  </data>
+  <data name="lista34" xml:space="preserve">
+    <value>% Aciertos Absolutos</value>
+  </data>
+  <data name="lista35" xml:space="preserve">
+    <value>% Aciertos Relativos</value>
+  </data>
+  <data name="lista36" xml:space="preserve">
+    <value>% Errores Relativos</value>
+  </data>
+  <data name="lista37" xml:space="preserve">
+    <value>% Errores Absolutos</value>
+  </data>
+  <data name="lista38" xml:space="preserve">
+    <value>Eficacia</value>
+  </data>
+  <data name="lista39" xml:space="preserve">
+    <value>Efectividad</value>
+  </data>
+  <data name="lista4" xml:space="preserve">
+    <value>Posicion</value>
+  </data>
+  <data name="lista40" xml:space="preserve">
+    <value>Reacción</value>
+  </data>
+  <data name="lista41" xml:space="preserve">
+    <value>Cant. Bot.</value>
+  </data>
+  <data name="lista42" xml:space="preserve">
+    <value>Botón</value>
+  </data>
+  <data name="lista43" xml:space="preserve">
+    <value>Emparejar</value>
+  </data>
+  <data name="lista44" xml:space="preserve">
+    <value>Tiempo</value>
+  </data>
+  <data name="lista45" xml:space="preserve">
+    <value>Posicion</value>
+  </data>
+  <data name="lista46" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="lista5" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="lista6" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <data name="lista7" xml:space="preserve">
+    <value>TipoRejilla</value>
+  </data>
+  <data name="lista8" xml:space="preserve">
+    <value>T. Limite</value>
+  </data>
+  <data name="lista9" xml:space="preserve">
+    <value>T. Aleatorio</value>
+  </data>
+  <data name="olv01" xml:space="preserve">
+    <value>No se ha seleccionado ningún color para cambiar</value>
+  </data>
+  <data name="olv02" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="olv03" xml:space="preserve">
+    <value>La plantilla ya tiene ese color. Eliga otro color distinto.</value>
+  </data>
+  <data name="olv04" xml:space="preserve">
+    <value>Solo se puede cambiar un color a la vez. seleccionar un solo color, por favor.</value>
+  </data>
+  <data name="olv05" xml:space="preserve">
+    <value>Archivo de plantillas de colores *.clr|*.clr</value>
+  </data>
+  <data name="olv06" xml:space="preserve">
+    <value>El fichero no existe</value>
+  </data>
+  <data name="olv07" xml:space="preserve">
+    <value>Error no se puede crear una carpeta en Mis Documentos</value>
+  </data>
+  <data name="olv08" xml:space="preserve">
+    <value>Error obteniendo color</value>
+  </data>
+  <data name="olv09" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="olv10" xml:space="preserve">
+    <value>columna</value>
+  </data>
+  <data name="olv11" xml:space="preserve">
+    <value>Elegir imágen</value>
+  </data>
+  <data name="olv12" xml:space="preserve">
+    <value>Ficheros imagenes (*.JPG;*.BMP;*.GIF;*.PNG)|*.JPG;*.BMP;*.GIF;*.PNG</value>
+  </data>
+  <data name="olv13" xml:space="preserve">
+    <value>Archivos de plantillas de imágenes *.fsi|*.fsi</value>
+  </data>
+  <data name="olv15" xml:space="preserve">
+    <value>Error inesperado editando las observaciones. No se escuentra el registro nombre:apellidos:fecha en el fichero. Restaurando a su valor anterior las observaciones.</value>
+  </data>
+  <data name="olv16" xml:space="preserve">
+    <value>ERROR ABECEDARIO: Letras fuera de rango. Rango de letras válido [A....ZZZ].</value>
+  </data>
+  <data name="olv17" xml:space="preserve">
+    <value>ERROR GRAVE DEL SISTEMA. Cierre la aplicación. Reinicie por favor.</value>
+  </data>
+  <data name="olv18" xml:space="preserve">
+    <value>Error grave en Wingdings. Fallo del sistema. Reinicie.</value>
+  </data>
+  <data name="par00" xml:space="preserve">
+    <value>IZQUIERDA</value>
+  </data>
+  <data name="par01" xml:space="preserve">
+    <value>DERECHA</value>
+  </data>
+  <data name="par02" xml:space="preserve">
+    <value>SUPERIOR</value>
+  </data>
+  <data name="par03" xml:space="preserve">
+    <value>CENTRO</value>
+  </data>
+  <data name="par04" xml:space="preserve">
+    <value>INFERIOR</value>
+  </data>
+  <data name="par05" xml:space="preserve">
+    <value>ALEATORIA</value>
+  </data>
+  <data name="por00" xml:space="preserve">
+    <value>No se pueden obtener los porcentajes (Num. Casillas =0).</value>
+  </data>
+  <data name="por01" xml:space="preserve">
+    <value>No se pueden obtener los porcentajes (Num. aciertos = num. errores = 0 ).</value>
+  </data>
+  <data name="sop01" xml:space="preserve">
+    <value>ABRIR FICHERO: No se encuentra el fichero</value>
+  </data>
+  <data name="sop02" xml:space="preserve">
+    <value>ABRIR FICHERO: Error en la lectura del fichero</value>
+  </data>
+  <data name="sop03" xml:space="preserve">
+    <value>ABRIR FICHERO: No tiene permisos para abrir este fichero</value>
+  </data>
+  <data name="sop04" xml:space="preserve">
+    <value>CARGAR PREFERENCIAS: No se encuentra el fichero</value>
+  </data>
+  <data name="sop05" xml:space="preserve">
+    <value>CARGAR PREFERENCIAS: Error en la lectura del fichero</value>
+  </data>
+  <data name="sop06" xml:space="preserve">
+    <value>CARGAR PREFERENCIAS: No tiene permisos para abrir este fichero</value>
+  </data>
+  <data name="titulo" xml:space="preserve">
+    <value>EEAT Evaluación y Entrenamiento de la Atención</value>
+  </data>
+  <data name="txt01" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="txt02" xml:space="preserve">
+    <value>Descendente</value>
+  </data>
+  <data name="txt03" xml:space="preserve">
+    <value>Aciertos</value>
+  </data>
+  <data name="txt04" xml:space="preserve">
+    <value>Errores</value>
+  </data>
+  <data name="txt05" xml:space="preserve">
+    <value>Cantidad de Registros en el Fichero   </value>
+  </data>
+  <data name="txt06" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="txt07" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="txt08" xml:space="preserve">
+    <value>Aleatoria</value>
+  </data>
+  <data name="txt09" xml:space="preserve">
+    <value>Sin línea</value>
+  </data>
+  <data name="txt10" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="txt11" xml:space="preserve">
+    <value>Ficheros de preferencias *.mmj|*.mmj</value>
+  </data>
+  <data name="txt12" xml:space="preserve">
+    <value>Guardar Ficheros de preferencias</value>
+  </data>
+  <data name="txt13" xml:space="preserve">
+    <value>Abrir ficheros de preferencias</value>
+  </data>
+  <data name="war00" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="war01" xml:space="preserve">
+    <value>La lista de música está vacía</value>
+  </data>
+  <data name="war02" xml:space="preserve">
+    <value>No se ha seleccionado ninguna canción para reproducir</value>
+  </data>
+  <data name="war03" xml:space="preserve">
+    <value>No se ha introducido el valor del metrónomo</value>
+  </data>
+  <data name="war04" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+</root>

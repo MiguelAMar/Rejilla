@@ -1,0 +1,3262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btAceptar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 444</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btAceptar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btAceptar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 51</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btAceptar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btAceptar.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Name" xml:space="preserve">
+    <value>btAceptar</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="btCancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 444</value>
+  </data>
+  <data name="btCancelar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btCancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 51</value>
+  </data>
+  <data name="btCancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btCancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.Name" xml:space="preserve">
+    <value>btCancelar</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="btBorrar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 444</value>
+  </data>
+  <data name="btBorrar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btBorrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 51</value>
+  </data>
+  <data name="btBorrar.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btBorrar.Text" xml:space="preserve">
+    <value>Borrar Seleccion</value>
+  </data>
+  <data name="&gt;&gt;btBorrar.Name" xml:space="preserve">
+    <value>btBorrar</value>
+  </data>
+  <data name="&gt;&gt;btBorrar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btBorrar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btBorrar.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="tbC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 27</value>
+  </data>
+  <data name="tbC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbC.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbC.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tbC.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbC.Name" xml:space="preserve">
+    <value>tbC</value>
+  </data>
+  <data name="&gt;&gt;tbC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbC.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="tbD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 27</value>
+  </data>
+  <data name="tbD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbD.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbD.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbD.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="tbD.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbD.Name" xml:space="preserve">
+    <value>tbD</value>
+  </data>
+  <data name="&gt;&gt;tbD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbD.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="tbK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 27</value>
+  </data>
+  <data name="tbK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbK.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbK.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tbK.Text" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="tbK.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbK.Name" xml:space="preserve">
+    <value>tbK</value>
+  </data>
+  <data name="&gt;&gt;tbK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbK.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="tbE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 27</value>
+  </data>
+  <data name="tbE.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbE.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbE.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tbE.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="tbE.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbE.Name" xml:space="preserve">
+    <value>tbE</value>
+  </data>
+  <data name="&gt;&gt;tbE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbE.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="tbF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 27</value>
+  </data>
+  <data name="tbF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbF.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbF.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="tbF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbF.Name" xml:space="preserve">
+    <value>tbF</value>
+  </data>
+  <data name="&gt;&gt;tbF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbF.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="tbG.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 27</value>
+  </data>
+  <data name="tbG.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbG.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbG.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tbG.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="tbG.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbG.Name" xml:space="preserve">
+    <value>tbG</value>
+  </data>
+  <data name="&gt;&gt;tbG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbG.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="tbH.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 27</value>
+  </data>
+  <data name="tbH.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbH.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbH.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tbH.Text" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="tbH.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbH.Name" xml:space="preserve">
+    <value>tbH</value>
+  </data>
+  <data name="&gt;&gt;tbH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbH.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbH.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="tbI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 27</value>
+  </data>
+  <data name="tbI.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbI.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbI.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbI.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="tbI.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbI.Name" xml:space="preserve">
+    <value>tbI</value>
+  </data>
+  <data name="&gt;&gt;tbI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbI.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="tbJ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbJ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 27</value>
+  </data>
+  <data name="tbJ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbJ.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbJ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbJ.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tbJ.Text" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="tbJ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbJ.Name" xml:space="preserve">
+    <value>tbJ</value>
+  </data>
+  <data name="&gt;&gt;tbJ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbJ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbJ.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="tbL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 27</value>
+  </data>
+  <data name="tbL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbL.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbL.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tbL.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="tbL.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbL.Name" xml:space="preserve">
+    <value>tbL</value>
+  </data>
+  <data name="&gt;&gt;tbL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbL.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="tbM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 27</value>
+  </data>
+  <data name="tbM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbM.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbM.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="tbM.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="tbM.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbM.Name" xml:space="preserve">
+    <value>tbM</value>
+  </data>
+  <data name="&gt;&gt;tbM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbM.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="tbN.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 27</value>
+  </data>
+  <data name="tbN.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbN.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbN.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tbN.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="tbN.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbN.Name" xml:space="preserve">
+    <value>tbN</value>
+  </data>
+  <data name="&gt;&gt;tbN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbN.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbN.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="tbÑ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbÑ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 27</value>
+  </data>
+  <data name="tbÑ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbÑ.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbÑ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbÑ.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tbÑ.Text" xml:space="preserve">
+    <value>Ñ</value>
+  </data>
+  <data name="tbÑ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbÑ.Name" xml:space="preserve">
+    <value>tbÑ</value>
+  </data>
+  <data name="&gt;&gt;tbÑ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbÑ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbÑ.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="tbO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>842, 27</value>
+  </data>
+  <data name="tbO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbO.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbO.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="tbO.Text" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="tbO.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbO.Name" xml:space="preserve">
+    <value>tbO</value>
+  </data>
+  <data name="&gt;&gt;tbO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbO.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbO.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="tbP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>897, 27</value>
+  </data>
+  <data name="tbP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbP.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbP.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="tbP.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="tbP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbP.Name" xml:space="preserve">
+    <value>tbP</value>
+  </data>
+  <data name="&gt;&gt;tbP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbP.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="tbR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 77</value>
+  </data>
+  <data name="tbR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbR.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbR.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="tbR.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="tbR.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbR.Name" xml:space="preserve">
+    <value>tbR</value>
+  </data>
+  <data name="&gt;&gt;tbR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbR.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="tbQ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 27</value>
+  </data>
+  <data name="tbQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbQ.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbQ.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tbQ.Text" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="tbQ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbQ.Name" xml:space="preserve">
+    <value>tbQ</value>
+  </data>
+  <data name="&gt;&gt;tbQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbQ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbQ.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="tbS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 77</value>
+  </data>
+  <data name="tbS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbS.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbS.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tbS.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="tbS.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbS.Name" xml:space="preserve">
+    <value>tbS</value>
+  </data>
+  <data name="&gt;&gt;tbS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbS.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="tbT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 77</value>
+  </data>
+  <data name="tbT.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbT.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbT.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="tbT.Text" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="tbT.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbT.Name" xml:space="preserve">
+    <value>tbT</value>
+  </data>
+  <data name="&gt;&gt;tbT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbT.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="tbB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 27</value>
+  </data>
+  <data name="tbB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbB.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbB.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="tbB.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="tbB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbB.Name" xml:space="preserve">
+    <value>tbB</value>
+  </data>
+  <data name="&gt;&gt;tbB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbB.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="tbU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 77</value>
+  </data>
+  <data name="tbU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbU.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbU.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="tbU.Text" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="tbU.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbU.Name" xml:space="preserve">
+    <value>tbU</value>
+  </data>
+  <data name="&gt;&gt;tbU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbU.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbU.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="tbA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 27</value>
+  </data>
+  <data name="tbA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbA.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbA.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tbA.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="tbA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbA.Name" xml:space="preserve">
+    <value>tbA</value>
+  </data>
+  <data name="&gt;&gt;tbA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbA.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="tbW.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 77</value>
+  </data>
+  <data name="tbW.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbW.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbW.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="tbW.Text" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="tbW.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbW.Name" xml:space="preserve">
+    <value>tbW</value>
+  </data>
+  <data name="&gt;&gt;tbW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbW.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbW.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="tbV.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 77</value>
+  </data>
+  <data name="tbV.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbV.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbV.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="tbV.Text" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="tbV.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbV.Name" xml:space="preserve">
+    <value>tbV</value>
+  </data>
+  <data name="&gt;&gt;tbV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbV.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbV.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="tbZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 77</value>
+  </data>
+  <data name="tbZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbZ.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbZ.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="tbZ.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="tbZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbZ.Name" xml:space="preserve">
+    <value>tbZ</value>
+  </data>
+  <data name="&gt;&gt;tbZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbZ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbZ.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="tbY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 77</value>
+  </data>
+  <data name="tbY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbY.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbY.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="tbY.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="tbY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbY.Name" xml:space="preserve">
+    <value>tbY</value>
+  </data>
+  <data name="&gt;&gt;tbY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbY.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbY.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="tbX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 77</value>
+  </data>
+  <data name="tbX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbX.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbX.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="tbX.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="tbX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbX.Name" xml:space="preserve">
+    <value>tbX</value>
+  </data>
+  <data name="&gt;&gt;tbX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbX.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="tbXF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbXF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 263</value>
+  </data>
+  <data name="tbXF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbXF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbXF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbXF.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="tbXF.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="tbXF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbXF.Name" xml:space="preserve">
+    <value>tbXF</value>
+  </data>
+  <data name="&gt;&gt;tbXF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbXF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbXF.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="tbYF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbYF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 263</value>
+  </data>
+  <data name="tbYF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbYF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbYF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbYF.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="tbYF.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="tbYF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbYF.Name" xml:space="preserve">
+    <value>tbYF</value>
+  </data>
+  <data name="&gt;&gt;tbYF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbYF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbYF.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="tbZF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbZF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 263</value>
+  </data>
+  <data name="tbZF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbZF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbZF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbZF.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="tbZF.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="tbZF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbZF.Name" xml:space="preserve">
+    <value>tbZF</value>
+  </data>
+  <data name="&gt;&gt;tbZF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbZF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbZF.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="tbVF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbVF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 263</value>
+  </data>
+  <data name="tbVF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbVF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbVF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbVF.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="tbVF.Text" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="tbVF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbVF.Name" xml:space="preserve">
+    <value>tbVF</value>
+  </data>
+  <data name="&gt;&gt;tbVF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbVF.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="tbWF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbWF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 263</value>
+  </data>
+  <data name="tbWF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbWF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbWF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbWF.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="tbWF.Text" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="tbWF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbWF.Name" xml:space="preserve">
+    <value>tbWF</value>
+  </data>
+  <data name="&gt;&gt;tbWF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbWF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbWF.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="tbAF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbAF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 212</value>
+  </data>
+  <data name="tbAF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbAF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbAF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbAF.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="tbAF.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="tbAF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbAF.Name" xml:space="preserve">
+    <value>tbAF</value>
+  </data>
+  <data name="&gt;&gt;tbAF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbAF.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="tbUF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbUF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 263</value>
+  </data>
+  <data name="tbUF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbUF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbUF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbUF.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="tbUF.Text" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="tbUF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbUF.Name" xml:space="preserve">
+    <value>tbUF</value>
+  </data>
+  <data name="&gt;&gt;tbUF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbUF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbUF.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="tbBF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbBF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 212</value>
+  </data>
+  <data name="tbBF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbBF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbBF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbBF.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="tbBF.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="tbBF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbBF.Name" xml:space="preserve">
+    <value>tbBF</value>
+  </data>
+  <data name="&gt;&gt;tbBF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbBF.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="tbTF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbTF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 263</value>
+  </data>
+  <data name="tbTF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbTF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbTF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbTF.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="tbTF.Text" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="tbTF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbTF.Name" xml:space="preserve">
+    <value>tbTF</value>
+  </data>
+  <data name="&gt;&gt;tbTF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbTF.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="tbSF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbSF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 263</value>
+  </data>
+  <data name="tbSF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbSF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbSF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbSF.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="tbSF.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="tbSF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbSF.Name" xml:space="preserve">
+    <value>tbSF</value>
+  </data>
+  <data name="&gt;&gt;tbSF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbSF.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="tbQF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbQF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 212</value>
+  </data>
+  <data name="tbQF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbQF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbQF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbQF.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="tbQF.Text" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="tbQF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbQF.Name" xml:space="preserve">
+    <value>tbQF</value>
+  </data>
+  <data name="&gt;&gt;tbQF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbQF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbQF.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="tbRF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbRF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 263</value>
+  </data>
+  <data name="tbRF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbRF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbRF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbRF.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="tbRF.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="tbRF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbRF.Name" xml:space="preserve">
+    <value>tbRF</value>
+  </data>
+  <data name="&gt;&gt;tbRF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbRF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbRF.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="tbPF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbPF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>897, 212</value>
+  </data>
+  <data name="tbPF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbPF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbPF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbPF.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="tbPF.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="tbPF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbPF.Name" xml:space="preserve">
+    <value>tbPF</value>
+  </data>
+  <data name="&gt;&gt;tbPF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbPF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbPF.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="tbOF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbOF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>842, 212</value>
+  </data>
+  <data name="tbOF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbOF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbOF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbOF.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="tbOF.Text" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="tbOF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbOF.Name" xml:space="preserve">
+    <value>tbOF</value>
+  </data>
+  <data name="&gt;&gt;tbOF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbOF.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="tbÑF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbÑF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 212</value>
+  </data>
+  <data name="tbÑF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbÑF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbÑF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbÑF.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="tbÑF.Text" xml:space="preserve">
+    <value>Ñ</value>
+  </data>
+  <data name="tbÑF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbÑF.Name" xml:space="preserve">
+    <value>tbÑF</value>
+  </data>
+  <data name="&gt;&gt;tbÑF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbÑF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbÑF.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="tbNF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbNF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 212</value>
+  </data>
+  <data name="tbNF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbNF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbNF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbNF.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="tbNF.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="tbNF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbNF.Name" xml:space="preserve">
+    <value>tbNF</value>
+  </data>
+  <data name="&gt;&gt;tbNF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbNF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbNF.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="tbMF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbMF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 212</value>
+  </data>
+  <data name="tbMF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbMF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbMF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbMF.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="tbMF.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="tbMF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbMF.Name" xml:space="preserve">
+    <value>tbMF</value>
+  </data>
+  <data name="&gt;&gt;tbMF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbMF.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="tbLF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbLF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 212</value>
+  </data>
+  <data name="tbLF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbLF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbLF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbLF.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="tbLF.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="tbLF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbLF.Name" xml:space="preserve">
+    <value>tbLF</value>
+  </data>
+  <data name="&gt;&gt;tbLF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbLF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbLF.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="tbJF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbJF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 212</value>
+  </data>
+  <data name="tbJF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbJF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbJF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbJF.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="tbJF.Text" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="tbJF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbJF.Name" xml:space="preserve">
+    <value>tbJF</value>
+  </data>
+  <data name="&gt;&gt;tbJF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbJF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbJF.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="tbIF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbIF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 212</value>
+  </data>
+  <data name="tbIF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbIF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbIF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbIF.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="tbIF.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="tbIF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbIF.Name" xml:space="preserve">
+    <value>tbIF</value>
+  </data>
+  <data name="&gt;&gt;tbIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbIF.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="tbHF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbHF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 212</value>
+  </data>
+  <data name="tbHF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbHF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbHF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbHF.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="tbHF.Text" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="tbHF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbHF.Name" xml:space="preserve">
+    <value>tbHF</value>
+  </data>
+  <data name="&gt;&gt;tbHF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbHF.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="tbGF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbGF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 212</value>
+  </data>
+  <data name="tbGF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbGF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbGF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbGF.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="tbGF.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="tbGF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbGF.Name" xml:space="preserve">
+    <value>tbGF</value>
+  </data>
+  <data name="&gt;&gt;tbGF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbGF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbGF.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="tbFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbFF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 212</value>
+  </data>
+  <data name="tbFF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbFF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbFF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbFF.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="tbFF.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="tbFF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbFF.Name" xml:space="preserve">
+    <value>tbFF</value>
+  </data>
+  <data name="&gt;&gt;tbFF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbFF.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="tbEF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbEF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 212</value>
+  </data>
+  <data name="tbEF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbEF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbEF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbEF.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="tbEF.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="tbEF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbEF.Name" xml:space="preserve">
+    <value>tbEF</value>
+  </data>
+  <data name="&gt;&gt;tbEF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbEF.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="tbKF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbKF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 212</value>
+  </data>
+  <data name="tbKF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbKF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbKF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbKF.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="tbKF.Text" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="tbKF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbKF.Name" xml:space="preserve">
+    <value>tbKF</value>
+  </data>
+  <data name="&gt;&gt;tbKF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbKF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbKF.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="tbDF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbDF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 212</value>
+  </data>
+  <data name="tbDF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbDF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbDF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbDF.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="tbDF.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="tbDF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbDF.Name" xml:space="preserve">
+    <value>tbDF</value>
+  </data>
+  <data name="&gt;&gt;tbDF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbDF.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="tbCF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbCF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 212</value>
+  </data>
+  <data name="tbCF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbCF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbCF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbCF.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="tbCF.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="tbCF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbCF.Name" xml:space="preserve">
+    <value>tbCF</value>
+  </data>
+  <data name="&gt;&gt;tbCF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbCF.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="ettituloFuente.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ettituloFuente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 155</value>
+  </data>
+  <data name="ettituloFuente.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="ettituloFuente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 15</value>
+  </data>
+  <data name="ettituloFuente.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="ettituloFuente.Text" xml:space="preserve">
+    <value>Fuente Seleccionada: </value>
+  </data>
+  <data name="&gt;&gt;ettituloFuente.Name" xml:space="preserve">
+    <value>ettituloFuente</value>
+  </data>
+  <data name="&gt;&gt;ettituloFuente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ettituloFuente.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ettituloFuente.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="etFuente.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etFuente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="etFuente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 155</value>
+  </data>
+  <data name="etFuente.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="etFuente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="etFuente.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="etFuente.Text" xml:space="preserve">
+    <value>Valor Fuente</value>
+  </data>
+  <data name="&gt;&gt;etFuente.Name" xml:space="preserve">
+    <value>etFuente</value>
+  </data>
+  <data name="&gt;&gt;etFuente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etFuente.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etFuente.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="btFuente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 444</value>
+  </data>
+  <data name="btFuente.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btFuente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 51</value>
+  </data>
+  <data name="btFuente.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="btFuente.Text" xml:space="preserve">
+    <value>Cambiar Fuente</value>
+  </data>
+  <data name="&gt;&gt;btFuente.Name" xml:space="preserve">
+    <value>btFuente</value>
+  </data>
+  <data name="&gt;&gt;btFuente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btFuente.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btFuente.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btSeleccionarTodas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 444</value>
+  </data>
+  <data name="btSeleccionarTodas.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btSeleccionarTodas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 51</value>
+  </data>
+  <data name="btSeleccionarTodas.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="btSeleccionarTodas.Text" xml:space="preserve">
+    <value>Seleccionar Todas</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodas.Name" xml:space="preserve">
+    <value>btSeleccionarTodas</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btSeleccionarTodas.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="tbxmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbxmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 376</value>
+  </data>
+  <data name="tbxmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbxmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbxmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbxmF.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="tbxmF.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="tbxmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbxmF.Name" xml:space="preserve">
+    <value>tbxmF</value>
+  </data>
+  <data name="&gt;&gt;tbxmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbxmF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbymF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbymF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 376</value>
+  </data>
+  <data name="tbymF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbymF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbymF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbymF.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="tbymF.Text" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="tbymF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbymF.Name" xml:space="preserve">
+    <value>tbymF</value>
+  </data>
+  <data name="&gt;&gt;tbymF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbymF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbymF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbzmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbzmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 376</value>
+  </data>
+  <data name="tbzmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbzmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbzmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbzmF.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="tbzmF.Text" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="tbzmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbzmF.Name" xml:space="preserve">
+    <value>tbzmF</value>
+  </data>
+  <data name="&gt;&gt;tbzmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbzmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbzmF.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbvmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbvmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 376</value>
+  </data>
+  <data name="tbvmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbvmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbvmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbvmF.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="tbvmF.Text" xml:space="preserve">
+    <value>v</value>
+  </data>
+  <data name="tbvmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbvmF.Name" xml:space="preserve">
+    <value>tbvmF</value>
+  </data>
+  <data name="&gt;&gt;tbvmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbvmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbvmF.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbwmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbwmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 376</value>
+  </data>
+  <data name="tbwmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbwmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbwmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbwmF.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="tbwmF.Text" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="tbwmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbwmF.Name" xml:space="preserve">
+    <value>tbwmF</value>
+  </data>
+  <data name="&gt;&gt;tbwmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbwmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbwmF.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbamF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbamF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 325</value>
+  </data>
+  <data name="tbamF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbamF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbamF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbamF.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="tbamF.Text" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="tbamF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbamF.Name" xml:space="preserve">
+    <value>tbamF</value>
+  </data>
+  <data name="&gt;&gt;tbamF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbamF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbamF.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbumF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbumF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 376</value>
+  </data>
+  <data name="tbumF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbumF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbumF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbumF.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="tbumF.Text" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="tbumF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbumF.Name" xml:space="preserve">
+    <value>tbumF</value>
+  </data>
+  <data name="&gt;&gt;tbumF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbumF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbumF.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbbmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbbmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 325</value>
+  </data>
+  <data name="tbbmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbbmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbbmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbbmF.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="tbbmF.Text" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="tbbmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbbmF.Name" xml:space="preserve">
+    <value>tbbmF</value>
+  </data>
+  <data name="&gt;&gt;tbbmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbbmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbbmF.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbtmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbtmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 376</value>
+  </data>
+  <data name="tbtmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbtmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbtmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbtmF.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="tbtmF.Text" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="tbtmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbtmF.Name" xml:space="preserve">
+    <value>tbtmF</value>
+  </data>
+  <data name="&gt;&gt;tbtmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbtmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbtmF.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbsmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbsmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 376</value>
+  </data>
+  <data name="tbsmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbsmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbsmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbsmF.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="tbsmF.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="tbsmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbsmF.Name" xml:space="preserve">
+    <value>tbsmF</value>
+  </data>
+  <data name="&gt;&gt;tbsmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbsmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbsmF.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbqmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbqmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 325</value>
+  </data>
+  <data name="tbqmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbqmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbqmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbqmF.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="tbqmF.Text" xml:space="preserve">
+    <value>q</value>
+  </data>
+  <data name="tbqmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbqmF.Name" xml:space="preserve">
+    <value>tbqmF</value>
+  </data>
+  <data name="&gt;&gt;tbqmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbqmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbqmF.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbrmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbrmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 376</value>
+  </data>
+  <data name="tbrmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbrmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbrmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbrmF.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="tbrmF.Text" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="tbrmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbrmF.Name" xml:space="preserve">
+    <value>tbrmF</value>
+  </data>
+  <data name="&gt;&gt;tbrmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbrmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbrmF.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tbpmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbpmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>897, 325</value>
+  </data>
+  <data name="tbpmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbpmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbpmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbpmF.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="tbpmF.Text" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="tbpmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbpmF.Name" xml:space="preserve">
+    <value>tbpmF</value>
+  </data>
+  <data name="&gt;&gt;tbpmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbpmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbpmF.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tbomF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbomF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>842, 325</value>
+  </data>
+  <data name="tbomF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbomF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbomF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbomF.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="tbomF.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="tbomF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbomF.Name" xml:space="preserve">
+    <value>tbomF</value>
+  </data>
+  <data name="&gt;&gt;tbomF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbomF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbomF.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbñmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbñmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 325</value>
+  </data>
+  <data name="tbñmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbñmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbñmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbñmF.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="tbñmF.Text" xml:space="preserve">
+    <value>ñ</value>
+  </data>
+  <data name="tbñmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbñmF.Name" xml:space="preserve">
+    <value>tbñmF</value>
+  </data>
+  <data name="&gt;&gt;tbñmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbñmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbñmF.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tbnmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbnmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 325</value>
+  </data>
+  <data name="tbnmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbnmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbnmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbnmF.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="tbnmF.Text" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="tbnmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbnmF.Name" xml:space="preserve">
+    <value>tbnmF</value>
+  </data>
+  <data name="&gt;&gt;tbnmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbnmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbnmF.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tbmmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbmmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 325</value>
+  </data>
+  <data name="tbmmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbmmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbmmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbmmF.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="tbmmF.Text" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="tbmmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbmmF.Name" xml:space="preserve">
+    <value>tbmmF</value>
+  </data>
+  <data name="&gt;&gt;tbmmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbmmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbmmF.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tblmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tblmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 325</value>
+  </data>
+  <data name="tblmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tblmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tblmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tblmF.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="tblmF.Text" xml:space="preserve">
+    <value>l</value>
+  </data>
+  <data name="tblmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tblmF.Name" xml:space="preserve">
+    <value>tblmF</value>
+  </data>
+  <data name="&gt;&gt;tblmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tblmF.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tbjmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbjmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 325</value>
+  </data>
+  <data name="tbjmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbjmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbjmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbjmF.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="tbjmF.Text" xml:space="preserve">
+    <value>j</value>
+  </data>
+  <data name="tbjmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbjmF.Name" xml:space="preserve">
+    <value>tbjmF</value>
+  </data>
+  <data name="&gt;&gt;tbjmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbjmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbjmF.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tbimF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbimF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 325</value>
+  </data>
+  <data name="tbimF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbimF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbimF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbimF.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="tbimF.Text" xml:space="preserve">
+    <value>i</value>
+  </data>
+  <data name="tbimF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbimF.Name" xml:space="preserve">
+    <value>tbimF</value>
+  </data>
+  <data name="&gt;&gt;tbimF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbimF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbimF.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tbhmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbhmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 325</value>
+  </data>
+  <data name="tbhmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbhmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbhmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbhmF.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="tbhmF.Text" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="tbhmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbhmF.Name" xml:space="preserve">
+    <value>tbhmF</value>
+  </data>
+  <data name="&gt;&gt;tbhmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbhmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbhmF.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tbgmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbgmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 325</value>
+  </data>
+  <data name="tbgmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbgmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbgmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbgmF.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="tbgmF.Text" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="tbgmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbgmF.Name" xml:space="preserve">
+    <value>tbgmF</value>
+  </data>
+  <data name="&gt;&gt;tbgmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbgmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbgmF.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tbfmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbfmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 325</value>
+  </data>
+  <data name="tbfmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbfmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbfmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbfmF.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="tbfmF.Text" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="tbfmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbfmF.Name" xml:space="preserve">
+    <value>tbfmF</value>
+  </data>
+  <data name="&gt;&gt;tbfmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbfmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbfmF.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="tbemF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbemF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 325</value>
+  </data>
+  <data name="tbemF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbemF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbemF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbemF.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="tbemF.Text" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="tbemF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbemF.Name" xml:space="preserve">
+    <value>tbemF</value>
+  </data>
+  <data name="&gt;&gt;tbemF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbemF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbemF.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tbkmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbkmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 325</value>
+  </data>
+  <data name="tbkmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbkmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbkmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbkmF.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="tbkmF.Text" xml:space="preserve">
+    <value>k</value>
+  </data>
+  <data name="tbkmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbkmF.Name" xml:space="preserve">
+    <value>tbkmF</value>
+  </data>
+  <data name="&gt;&gt;tbkmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbkmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbkmF.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="tbdmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbdmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 325</value>
+  </data>
+  <data name="tbdmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbdmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbdmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbdmF.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="tbdmF.Text" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="tbdmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbdmF.Name" xml:space="preserve">
+    <value>tbdmF</value>
+  </data>
+  <data name="&gt;&gt;tbdmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbdmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbdmF.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="tbcmF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="tbcmF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 325</value>
+  </data>
+  <data name="tbcmF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbcmF.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbcmF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 38</value>
+  </data>
+  <data name="tbcmF.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="tbcmF.Text" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="tbcmF.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbcmF.Name" xml:space="preserve">
+    <value>tbcmF</value>
+  </data>
+  <data name="&gt;&gt;tbcmF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbcmF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbcmF.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1017, 509</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Letras</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DialogoLetras</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

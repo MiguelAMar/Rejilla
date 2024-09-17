@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="etAciertos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="etAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 55</value>
+  </data>
+  <data name="etAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="etAciertos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="etAciertos.Text" xml:space="preserve">
+    <value>Aciertos:</value>
+  </data>
+  <data name="&gt;&gt;etAciertos.Name" xml:space="preserve">
+    <value>etAciertos</value>
+  </data>
+  <data name="&gt;&gt;etAciertos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etAciertos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etAciertos.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="etFallos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etFallos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 82</value>
+  </data>
+  <data name="etFallos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="etFallos.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="etFallos.Text" xml:space="preserve">
+    <value>Errores:</value>
+  </data>
+  <data name="&gt;&gt;etFallos.Name" xml:space="preserve">
+    <value>etFallos</value>
+  </data>
+  <data name="&gt;&gt;etFallos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etFallos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etFallos.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="etBotonesTotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etBotonesTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 109</value>
+  </data>
+  <data name="etBotonesTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 13</value>
+  </data>
+  <data name="etBotonesTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="etBotonesTotal.Text" xml:space="preserve">
+    <value>Cantidad Total de Botones:</value>
+  </data>
+  <data name="&gt;&gt;etBotonesTotal.Name" xml:space="preserve">
+    <value>etBotonesTotal</value>
+  </data>
+  <data name="&gt;&gt;etBotonesTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etBotonesTotal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etBotonesTotal.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="etAciertosCasillas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etAciertosCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 154</value>
+  </data>
+  <data name="etAciertosCasillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="etAciertosCasillas.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="etAciertosCasillas.Text" xml:space="preserve">
+    <value>Porcentaje Aciertos Absolutos:</value>
+  </data>
+  <data name="&gt;&gt;etAciertosCasillas.Name" xml:space="preserve">
+    <value>etAciertosCasillas</value>
+  </data>
+  <data name="&gt;&gt;etAciertosCasillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etAciertosCasillas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etAciertosCasillas.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="etAciertosErrores.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etAciertosErrores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 181</value>
+  </data>
+  <data name="etAciertosErrores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="etAciertosErrores.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="etAciertosErrores.Text" xml:space="preserve">
+    <value>Porcentaje Aciertos Relativos:</value>
+  </data>
+  <data name="&gt;&gt;etAciertosErrores.Name" xml:space="preserve">
+    <value>etAciertosErrores</value>
+  </data>
+  <data name="&gt;&gt;etAciertosErrores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etAciertosErrores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etAciertosErrores.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="etErroresAciertos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etErroresAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 235</value>
+  </data>
+  <data name="etErroresAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="etErroresAciertos.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="etErroresAciertos.Text" xml:space="preserve">
+    <value>Porcentaje Errores Relativos:</value>
+  </data>
+  <data name="&gt;&gt;etErroresAciertos.Name" xml:space="preserve">
+    <value>etErroresAciertos</value>
+  </data>
+  <data name="&gt;&gt;etErroresAciertos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etErroresAciertos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etErroresAciertos.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="etErroresCasillasTotales.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etErroresCasillasTotales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 208</value>
+  </data>
+  <data name="etErroresCasillasTotales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 13</value>
+  </data>
+  <data name="etErroresCasillasTotales.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="etErroresCasillasTotales.Text" xml:space="preserve">
+    <value>Porcentaje Errores Absolutos:</value>
+  </data>
+  <data name="&gt;&gt;etErroresCasillasTotales.Name" xml:space="preserve">
+    <value>etErroresCasillasTotales</value>
+  </data>
+  <data name="&gt;&gt;etErroresCasillasTotales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etErroresCasillasTotales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etErroresCasillasTotales.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="etEficacia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etEficacia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 262</value>
+  </data>
+  <data name="etEficacia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="etEficacia.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="etEficacia.Text" xml:space="preserve">
+    <value>Eficacia:</value>
+  </data>
+  <data name="&gt;&gt;etEficacia.Name" xml:space="preserve">
+    <value>etEficacia</value>
+  </data>
+  <data name="&gt;&gt;etEficacia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etEficacia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etEficacia.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="etEfectividad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etEfectividad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 289</value>
+  </data>
+  <data name="etEfectividad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="etEfectividad.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="etEfectividad.Text" xml:space="preserve">
+    <value>Efectividad:</value>
+  </data>
+  <data name="&gt;&gt;etEfectividad.Name" xml:space="preserve">
+    <value>etEfectividad</value>
+  </data>
+  <data name="&gt;&gt;etEfectividad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etEfectividad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etEfectividad.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="etValorAciertos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 54</value>
+  </data>
+  <data name="etValorAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorAciertos.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="etValorAciertos.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertos.Name" xml:space="preserve">
+    <value>etValorAciertos</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertos.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="etValorFallos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorFallos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 81</value>
+  </data>
+  <data name="etValorFallos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorFallos.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="etValorFallos.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;etValorFallos.Name" xml:space="preserve">
+    <value>etValorFallos</value>
+  </data>
+  <data name="&gt;&gt;etValorFallos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorFallos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorFallos.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="etValorCantidadBotones.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorCantidadBotones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 109</value>
+  </data>
+  <data name="etValorCantidadBotones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorCantidadBotones.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="etValorCantidadBotones.Text" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;etValorCantidadBotones.Name" xml:space="preserve">
+    <value>etValorCantidadBotones</value>
+  </data>
+  <data name="&gt;&gt;etValorCantidadBotones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorCantidadBotones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorCantidadBotones.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="etValorAciertosCasillas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorAciertosCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 153</value>
+  </data>
+  <data name="etValorAciertosCasillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorAciertosCasillas.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="etValorAciertosCasillas.Text" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosCasillas.Name" xml:space="preserve">
+    <value>etValorAciertosCasillas</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosCasillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosCasillas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosCasillas.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="etValorAciertosErrores.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorAciertosErrores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 180</value>
+  </data>
+  <data name="etValorAciertosErrores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorAciertosErrores.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="etValorAciertosErrores.Text" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosErrores.Name" xml:space="preserve">
+    <value>etValorAciertosErrores</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosErrores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosErrores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorAciertosErrores.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="etValorErroresAciertos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorErroresAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 234</value>
+  </data>
+  <data name="etValorErroresAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorErroresAciertos.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="etValorErroresAciertos.Text" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresAciertos.Name" xml:space="preserve">
+    <value>etValorErroresAciertos</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresAciertos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresAciertos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresAciertos.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="etValorErroresCasillas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorErroresCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 207</value>
+  </data>
+  <data name="etValorErroresCasillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorErroresCasillas.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="etValorErroresCasillas.Text" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresCasillas.Name" xml:space="preserve">
+    <value>etValorErroresCasillas</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresCasillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresCasillas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorErroresCasillas.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="etVAlorEficacia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etVAlorEficacia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 261</value>
+  </data>
+  <data name="etVAlorEficacia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etVAlorEficacia.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="etVAlorEficacia.Text" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;etVAlorEficacia.Name" xml:space="preserve">
+    <value>etVAlorEficacia</value>
+  </data>
+  <data name="&gt;&gt;etVAlorEficacia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etVAlorEficacia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etVAlorEficacia.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="etValorEfectividad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etValorEfectividad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 288</value>
+  </data>
+  <data name="etValorEfectividad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="etValorEfectividad.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="etValorEfectividad.Text" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;etValorEfectividad.Name" xml:space="preserve">
+    <value>etValorEfectividad</value>
+  </data>
+  <data name="&gt;&gt;etValorEfectividad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etValorEfectividad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etValorEfectividad.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="pictureBoxAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 53</value>
+  </data>
+  <data name="pictureBoxAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 14</value>
+  </data>
+  <data name="pictureBoxAciertos.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertos.Name" xml:space="preserve">
+    <value>pictureBoxAciertos</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertos.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pictureBoxFallos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 81</value>
+  </data>
+  <data name="pictureBoxFallos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 14</value>
+  </data>
+  <data name="pictureBoxFallos.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFallos.Name" xml:space="preserve">
+    <value>pictureBoxFallos</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFallos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFallos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxFallos.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBoxCantidadbotones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 109</value>
+  </data>
+  <data name="pictureBoxCantidadbotones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 14</value>
+  </data>
+  <data name="pictureBoxCantidadbotones.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxCantidadbotones.Name" xml:space="preserve">
+    <value>pictureBoxCantidadbotones</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxCantidadbotones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxCantidadbotones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxCantidadbotones.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pictureBoxAciertosCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 153</value>
+  </data>
+  <data name="pictureBoxAciertosCasillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="pictureBoxAciertosCasillas.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosCasillas.Name" xml:space="preserve">
+    <value>pictureBoxAciertosCasillas</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosCasillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosCasillas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosCasillas.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pictureBoxAciertosErrores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 180</value>
+  </data>
+  <data name="pictureBoxAciertosErrores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="pictureBoxAciertosErrores.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosErrores.Name" xml:space="preserve">
+    <value>pictureBoxAciertosErrores</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosErrores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosErrores.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxAciertosErrores.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pictureBoxErroresAciertos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 234</value>
+  </data>
+  <data name="pictureBoxErroresAciertos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="pictureBoxErroresAciertos.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresAciertos.Name" xml:space="preserve">
+    <value>pictureBoxErroresAciertos</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresAciertos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresAciertos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresAciertos.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pictureBoxErroresCasillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 207</value>
+  </data>
+  <data name="pictureBoxErroresCasillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="pictureBoxErroresCasillas.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresCasillas.Name" xml:space="preserve">
+    <value>pictureBoxErroresCasillas</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresCasillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresCasillas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxErroresCasillas.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pictureBoxEficacia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 261</value>
+  </data>
+  <data name="pictureBoxEficacia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="pictureBoxEficacia.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEficacia.Name" xml:space="preserve">
+    <value>pictureBoxEficacia</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEficacia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEficacia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEficacia.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pictureBoxEfectividad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 288</value>
+  </data>
+  <data name="pictureBoxEfectividad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="pictureBoxEfectividad.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEfectividad.Name" xml:space="preserve">
+    <value>pictureBoxEfectividad</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEfectividad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEfectividad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxEfectividad.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="et0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="et0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 137</value>
+  </data>
+  <data name="et0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="et0.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="et0.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="&gt;&gt;et0.Name" xml:space="preserve">
+    <value>et0</value>
+  </data>
+  <data name="&gt;&gt;et0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;et0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;et0.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="et100.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="et100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 137</value>
+  </data>
+  <data name="et100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="et100.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="et100.Text" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="&gt;&gt;et100.Name" xml:space="preserve">
+    <value>et100</value>
+  </data>
+  <data name="&gt;&gt;et100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;et100.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;et100.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="etB0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etB0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 34</value>
+  </data>
+  <data name="etB0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="etB0.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="etB0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;etB0.Name" xml:space="preserve">
+    <value>etB0</value>
+  </data>
+  <data name="&gt;&gt;etB0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etB0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etB0.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="etB225.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etB225.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 34</value>
+  </data>
+  <data name="etB225.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="etB225.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="etB225.Text" xml:space="preserve">
+    <value>225</value>
+  </data>
+  <data name="&gt;&gt;etB225.Name" xml:space="preserve">
+    <value>etB225</value>
+  </data>
+  <data name="&gt;&gt;etB225.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etB225.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etB225.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="etB100.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etB100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 34</value>
+  </data>
+  <data name="etB100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="etB100.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="etB100.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;etB100.Name" xml:space="preserve">
+    <value>etB100</value>
+  </data>
+  <data name="&gt;&gt;etB100.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etB100.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etB100.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btAceptar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 322</value>
+  </data>
+  <data name="btAceptar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btAceptar.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btAceptar.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Name" xml:space="preserve">
+    <value>btAceptar</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="etB50.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etB50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="etB50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="etB50.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="etB50.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;etB50.Name" xml:space="preserve">
+    <value>etB50</value>
+  </data>
+  <data name="&gt;&gt;etB50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etB50.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etB50.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="etB200.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etB200.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 34</value>
+  </data>
+  <data name="etB200.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="etB200.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="etB200.Text" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;etB200.Name" xml:space="preserve">
+    <value>etB200</value>
+  </data>
+  <data name="&gt;&gt;etB200.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etB200.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etB200.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="etB150.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etB150.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 34</value>
+  </data>
+  <data name="etB150.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="etB150.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="etB150.Text" xml:space="preserve">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;etB150.Name" xml:space="preserve">
+    <value>etB150</value>
+  </data>
+  <data name="&gt;&gt;etB150.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etB150.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etB150.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>531, 352</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Porcentajes</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Porcentajes</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

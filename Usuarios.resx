@@ -1,0 +1,2006 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgvUsuarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="dgvUsuarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 140</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvUsuarios.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvUsuarios.Name" xml:space="preserve">
+    <value>dgvUsuarios</value>
+  </data>
+  <data name="&gt;&gt;dgvUsuarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvUsuarios.Parent" xml:space="preserve">
+    <value>gbUsuarios</value>
+  </data>
+  <data name="&gt;&gt;dgvUsuarios.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="etUsuario.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 33</value>
+  </data>
+  <data name="etUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 15</value>
+  </data>
+  <data name="etUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="etUsuario.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="&gt;&gt;etUsuario.Name" xml:space="preserve">
+    <value>etUsuario</value>
+  </data>
+  <data name="&gt;&gt;etUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etUsuario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etUsuario.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="tbNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="tbNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="tbNombre.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbNombre.Name" xml:space="preserve">
+    <value>tbNombre</value>
+  </data>
+  <data name="&gt;&gt;tbNombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbNombre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbNombre.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btCargarUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 593</value>
+  </data>
+  <data name="btCargarUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 30</value>
+  </data>
+  <data name="btCargarUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btCargarUsuario.Text" xml:space="preserve">
+    <value>Cargar Usuario</value>
+  </data>
+  <data name="&gt;&gt;btCargarUsuario.Name" xml:space="preserve">
+    <value>btCargarUsuario</value>
+  </data>
+  <data name="&gt;&gt;btCargarUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCargarUsuario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btCargarUsuario.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btCancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 72</value>
+  </data>
+  <data name="btCancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 45</value>
+  </data>
+  <data name="btCancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btCancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.Name" xml:space="preserve">
+    <value>btCancelar</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.Parent" xml:space="preserve">
+    <value>gbBotones</value>
+  </data>
+  <data name="&gt;&gt;btCancelar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="etApellidos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etApellidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 61</value>
+  </data>
+  <data name="etApellidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 15</value>
+  </data>
+  <data name="etApellidos.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="etApellidos.Text" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="&gt;&gt;etApellidos.Name" xml:space="preserve">
+    <value>etApellidos</value>
+  </data>
+  <data name="&gt;&gt;etApellidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etApellidos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etApellidos.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tbApellidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 57</value>
+  </data>
+  <data name="tbApellidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="tbApellidos.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbApellidos.Name" xml:space="preserve">
+    <value>tbApellidos</value>
+  </data>
+  <data name="&gt;&gt;tbApellidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbApellidos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbApellidos.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tbCodigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 1</value>
+  </data>
+  <data name="tbCodigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="tbCodigo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbCodigo.Name" xml:space="preserve">
+    <value>tbCodigo</value>
+  </data>
+  <data name="&gt;&gt;tbCodigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCodigo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbCodigo.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="etCodigo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etCodigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 4</value>
+  </data>
+  <data name="etCodigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="etCodigo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="etCodigo.Text" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="&gt;&gt;etCodigo.Name" xml:space="preserve">
+    <value>etCodigo</value>
+  </data>
+  <data name="&gt;&gt;etCodigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etCodigo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etCodigo.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tbDeportes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 1</value>
+  </data>
+  <data name="tbDeportes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="tbDeportes.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbDeportes.Name" xml:space="preserve">
+    <value>tbDeportes</value>
+  </data>
+  <data name="&gt;&gt;tbDeportes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDeportes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbDeportes.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="etDeportes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etDeportes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 4</value>
+  </data>
+  <data name="etDeportes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="etDeportes.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="etDeportes.Text" xml:space="preserve">
+    <value>Deportes</value>
+  </data>
+  <data name="&gt;&gt;etDeportes.Name" xml:space="preserve">
+    <value>etDeportes</value>
+  </data>
+  <data name="&gt;&gt;etDeportes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etDeportes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etDeportes.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="etEdad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 33</value>
+  </data>
+  <data name="etEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="etEdad.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="etEdad.Text" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="&gt;&gt;etEdad.Name" xml:space="preserve">
+    <value>etEdad</value>
+  </data>
+  <data name="&gt;&gt;etEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etEdad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etEdad.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 29</value>
+  </data>
+  <data name="tbEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="tbEdad.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tbEdad.Name" xml:space="preserve">
+    <value>tbEdad</value>
+  </data>
+  <data name="&gt;&gt;tbEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEdad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbEdad.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tbPosicion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 29</value>
+  </data>
+  <data name="tbPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="tbPosicion.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tbPosicion.Name" xml:space="preserve">
+    <value>tbPosicion</value>
+  </data>
+  <data name="&gt;&gt;tbPosicion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbPosicion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbPosicion.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="etPosicion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etPosicion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 33</value>
+  </data>
+  <data name="etPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="etPosicion.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="etPosicion.Text" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="&gt;&gt;etPosicion.Name" xml:space="preserve">
+    <value>etPosicion</value>
+  </data>
+  <data name="&gt;&gt;etPosicion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etPosicion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etPosicion.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbPais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 1</value>
+  </data>
+  <data name="tbPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="tbPais.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tbPais.Name" xml:space="preserve">
+    <value>tbPais</value>
+  </data>
+  <data name="&gt;&gt;tbPais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbPais.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbPais.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="etPais.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etPais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 4</value>
+  </data>
+  <data name="etPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="etPais.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="etPais.Text" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="&gt;&gt;etPais.Name" xml:space="preserve">
+    <value>etPais</value>
+  </data>
+  <data name="&gt;&gt;etPais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etPais.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;etPais.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btActualizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 593</value>
+  </data>
+  <data name="btActualizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 30</value>
+  </data>
+  <data name="btActualizar.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btActualizar.Text" xml:space="preserve">
+    <value>Actualizar Usuario</value>
+  </data>
+  <data name="&gt;&gt;btActualizar.Name" xml:space="preserve">
+    <value>btActualizar</value>
+  </data>
+  <data name="&gt;&gt;btActualizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btActualizar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btActualizar.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btInsertarUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 593</value>
+  </data>
+  <data name="btInsertarUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 30</value>
+  </data>
+  <data name="btInsertarUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btInsertarUsuario.Text" xml:space="preserve">
+    <value>Insertar Usuario</value>
+  </data>
+  <data name="&gt;&gt;btInsertarUsuario.Name" xml:space="preserve">
+    <value>btInsertarUsuario</value>
+  </data>
+  <data name="&gt;&gt;btInsertarUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btInsertarUsuario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btInsertarUsuario.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="rbDerecha.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbDerecha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 14</value>
+  </data>
+  <data name="rbDerecha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="rbDerecha.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbDerecha.Text" xml:space="preserve">
+    <value>Derecha</value>
+  </data>
+  <data name="&gt;&gt;rbDerecha.Name" xml:space="preserve">
+    <value>rbDerecha</value>
+  </data>
+  <data name="&gt;&gt;rbDerecha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbDerecha.Parent" xml:space="preserve">
+    <value>gbLateralidad</value>
+  </data>
+  <data name="&gt;&gt;rbDerecha.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbIzquierda.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbIzquierda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 14</value>
+  </data>
+  <data name="rbIzquierda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 19</value>
+  </data>
+  <data name="rbIzquierda.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbIzquierda.Text" xml:space="preserve">
+    <value>Izquierda</value>
+  </data>
+  <data name="&gt;&gt;rbIzquierda.Name" xml:space="preserve">
+    <value>rbIzquierda</value>
+  </data>
+  <data name="&gt;&gt;rbIzquierda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbIzquierda.Parent" xml:space="preserve">
+    <value>gbLateralidad</value>
+  </data>
+  <data name="&gt;&gt;rbIzquierda.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbLateralidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 57</value>
+  </data>
+  <data name="gbLateralidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 35</value>
+  </data>
+  <data name="gbLateralidad.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="gbLateralidad.Text" xml:space="preserve">
+    <value>Lateralidad</value>
+  </data>
+  <data name="&gt;&gt;gbLateralidad.Name" xml:space="preserve">
+    <value>gbLateralidad</value>
+  </data>
+  <data name="&gt;&gt;gbLateralidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbLateralidad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbLateralidad.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rbFemenino.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbFemenino.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 14</value>
+  </data>
+  <data name="rbFemenino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="rbFemenino.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbFemenino.Text" xml:space="preserve">
+    <value>Femenino</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.Name" xml:space="preserve">
+    <value>rbFemenino</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.Parent" xml:space="preserve">
+    <value>gbGénero</value>
+  </data>
+  <data name="&gt;&gt;rbFemenino.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbHombre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbHombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 14</value>
+  </data>
+  <data name="rbHombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="rbHombre.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbHombre.Text" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="&gt;&gt;rbHombre.Name" xml:space="preserve">
+    <value>rbHombre</value>
+  </data>
+  <data name="&gt;&gt;rbHombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbHombre.Parent" xml:space="preserve">
+    <value>gbGénero</value>
+  </data>
+  <data name="&gt;&gt;rbHombre.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbGénero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 57</value>
+  </data>
+  <data name="gbGénero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 35</value>
+  </data>
+  <data name="gbGénero.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="gbGénero.Text" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="&gt;&gt;gbGénero.Name" xml:space="preserve">
+    <value>gbGénero</value>
+  </data>
+  <data name="&gt;&gt;gbGénero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbGénero.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbGénero.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dgvRejillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="dgvRejillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 176</value>
+  </data>
+  <data name="dgvRejillas.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvRejillas.Name" xml:space="preserve">
+    <value>dgvRejillas</value>
+  </data>
+  <data name="&gt;&gt;dgvRejillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvRejillas.Parent" xml:space="preserve">
+    <value>gbRejillas</value>
+  </data>
+  <data name="&gt;&gt;dgvRejillas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbRejillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 385</value>
+  </data>
+  <data name="gbRejillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 204</value>
+  </data>
+  <data name="gbRejillas.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="gbRejillas.Text" xml:space="preserve">
+    <value>Rejillas del usuario</value>
+  </data>
+  <data name="&gt;&gt;gbRejillas.Name" xml:space="preserve">
+    <value>gbRejillas</value>
+  </data>
+  <data name="&gt;&gt;gbRejillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbRejillas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbRejillas.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btCargarRejillasUsuario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="btCargarRejillasUsuario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 45</value>
+  </data>
+  <data name="btCargarRejillasUsuario.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btCargarRejillasUsuario.Text" xml:space="preserve">
+    <value>Cargar Rejillas del Usuario</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejillasUsuario.Name" xml:space="preserve">
+    <value>btCargarRejillasUsuario</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejillasUsuario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejillasUsuario.Parent" xml:space="preserve">
+    <value>gbBotones</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejillasUsuario.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btExportarRejillasExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 593</value>
+  </data>
+  <data name="btExportarRejillasExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="btExportarRejillasExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="btExportarRejillasExcel.Text" xml:space="preserve">
+    <value>Exportar Rejillas Excel</value>
+  </data>
+  <data name="&gt;&gt;btExportarRejillasExcel.Name" xml:space="preserve">
+    <value>btExportarRejillasExcel</value>
+  </data>
+  <data name="&gt;&gt;btExportarRejillasExcel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btExportarRejillasExcel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btExportarRejillasExcel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btComparar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>812, 593</value>
+  </data>
+  <data name="btComparar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 30</value>
+  </data>
+  <data name="btComparar.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btComparar.Text" xml:space="preserve">
+    <value>Comparar rejillas</value>
+  </data>
+  <data name="&gt;&gt;btComparar.Name" xml:space="preserve">
+    <value>btComparar</value>
+  </data>
+  <data name="&gt;&gt;btComparar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btComparar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btComparar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btAceptar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 17</value>
+  </data>
+  <data name="btAceptar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 45</value>
+  </data>
+  <data name="btAceptar.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btAceptar.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Name" xml:space="preserve">
+    <value>btAceptar</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.Parent" xml:space="preserve">
+    <value>gbBotones</value>
+  </data>
+  <data name="&gt;&gt;btAceptar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbUsuarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 210</value>
+  </data>
+  <data name="gbUsuarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 173</value>
+  </data>
+  <data name="gbUsuarios.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="gbUsuarios.Text" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="&gt;&gt;gbUsuarios.Name" xml:space="preserve">
+    <value>gbUsuarios</value>
+  </data>
+  <data name="&gt;&gt;gbUsuarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbUsuarios.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbUsuarios.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 50</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 15</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Buscar x contenido usar % al principio</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 32</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 15</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Búsqueda exacta</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbTodasLasFilas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasLasFilas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 57</value>
+  </data>
+  <data name="rbTodasLasFilas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 19</value>
+  </data>
+  <data name="rbTodasLasFilas.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="rbTodasLasFilas.Text" xml:space="preserve">
+    <value>Cargar toda la tabla</value>
+  </data>
+  <data name="&gt;&gt;rbTodasLasFilas.Name" xml:space="preserve">
+    <value>rbTodasLasFilas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasLasFilas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasLasFilas.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbTodasLasFilas.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbPosicion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbPosicion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 31</value>
+  </data>
+  <data name="rbPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="rbPosicion.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="rbPosicion.Text" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="&gt;&gt;rbPosicion.Name" xml:space="preserve">
+    <value>rbPosicion</value>
+  </data>
+  <data name="&gt;&gt;rbPosicion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbPosicion.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbPosicion.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbPaís.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbPaís.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 6</value>
+  </data>
+  <data name="rbPaís.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 19</value>
+  </data>
+  <data name="rbPaís.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="rbPaís.Text" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="&gt;&gt;rbPaís.Name" xml:space="preserve">
+    <value>rbPaís</value>
+  </data>
+  <data name="&gt;&gt;rbPaís.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbPaís.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbPaís.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbEdad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 55</value>
+  </data>
+  <data name="rbEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="rbEdad.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="rbEdad.Text" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="&gt;&gt;rbEdad.Name" xml:space="preserve">
+    <value>rbEdad</value>
+  </data>
+  <data name="&gt;&gt;rbEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbEdad.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbEdad.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rbDeportes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbDeportes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 30</value>
+  </data>
+  <data name="rbDeportes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 19</value>
+  </data>
+  <data name="rbDeportes.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rbDeportes.Text" xml:space="preserve">
+    <value>Deportes</value>
+  </data>
+  <data name="&gt;&gt;rbDeportes.Name" xml:space="preserve">
+    <value>rbDeportes</value>
+  </data>
+  <data name="&gt;&gt;rbDeportes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbDeportes.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbDeportes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rbGenero.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbGenero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 5</value>
+  </data>
+  <data name="rbGenero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="rbGenero.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="rbGenero.Text" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="&gt;&gt;rbGenero.Name" xml:space="preserve">
+    <value>rbGenero</value>
+  </data>
+  <data name="&gt;&gt;rbGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbGenero.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbGenero.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="rbLateralidad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbLateralidad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 55</value>
+  </data>
+  <data name="rbLateralidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="rbLateralidad.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="rbLateralidad.Text" xml:space="preserve">
+    <value>Lateralidad</value>
+  </data>
+  <data name="&gt;&gt;rbLateralidad.Name" xml:space="preserve">
+    <value>rbLateralidad</value>
+  </data>
+  <data name="&gt;&gt;rbLateralidad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbLateralidad.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbLateralidad.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="rbApellidos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbApellidos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 30</value>
+  </data>
+  <data name="rbApellidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="rbApellidos.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="rbApellidos.Text" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="&gt;&gt;rbApellidos.Name" xml:space="preserve">
+    <value>rbApellidos</value>
+  </data>
+  <data name="&gt;&gt;rbApellidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbApellidos.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbApellidos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbBuscarPor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 6</value>
+  </data>
+  <data name="tbBuscarPor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 23</value>
+  </data>
+  <data name="tbBuscarPor.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbBuscarPor.Name" xml:space="preserve">
+    <value>tbBuscarPor</value>
+  </data>
+  <data name="&gt;&gt;tbBuscarPor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBuscarPor.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;tbBuscarPor.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="rbNombre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbNombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 5</value>
+  </data>
+  <data name="rbNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="rbNombre.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rbNombre.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="&gt;&gt;rbNombre.Name" xml:space="preserve">
+    <value>rbNombre</value>
+  </data>
+  <data name="&gt;&gt;rbNombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbNombre.Parent" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;rbNombre.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tabPageUsuarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageUsuarios.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageUsuarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 85</value>
+  </data>
+  <data name="tabPageUsuarios.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageUsuarios.Text" xml:space="preserve">
+    <value>Burcar Usuarios</value>
+  </data>
+  <data name="&gt;&gt;tabPageUsuarios.Name" xml:space="preserve">
+    <value>tabPageUsuarios</value>
+  </data>
+  <data name="&gt;&gt;tabPageUsuarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageUsuarios.Parent" xml:space="preserve">
+    <value>tabUserRejillas</value>
+  </data>
+  <data name="&gt;&gt;tabPageUsuarios.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbTodasRejillasGenero.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rbTodasRejillasGenero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasGenero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 31</value>
+  </data>
+  <data name="rbTodasRejillasGenero.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasGenero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="rbTodasRejillasGenero.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="rbTodasRejillasGenero.Text" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasGenero.Name" xml:space="preserve">
+    <value>rbTodasRejillasGenero</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasGenero.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasGenero.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbTodasRejillasMujer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasMujer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="rbTodasRejillasMujer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="rbTodasRejillasMujer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbTodasRejillasMujer.Text" xml:space="preserve">
+    <value>Femenino</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasMujer.Name" xml:space="preserve">
+    <value>rbTodasRejillasMujer</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasMujer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasMujer.Parent" xml:space="preserve">
+    <value>gbTodasRejillasGenero</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasMujer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbTodasRejillasHombre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasHombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 14</value>
+  </data>
+  <data name="rbTodasRejillasHombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="rbTodasRejillasHombre.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbTodasRejillasHombre.Text" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasHombre.Name" xml:space="preserve">
+    <value>rbTodasRejillasHombre</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasHombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasHombre.Parent" xml:space="preserve">
+    <value>gbTodasRejillasGenero</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasHombre.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbTodasRejillasGenero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 12</value>
+  </data>
+  <data name="gbTodasRejillasGenero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 66</value>
+  </data>
+  <data name="gbTodasRejillasGenero.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="gbTodasRejillasGenero.Text" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="&gt;&gt;gbTodasRejillasGenero.Name" xml:space="preserve">
+    <value>gbTodasRejillasGenero</value>
+  </data>
+  <data name="&gt;&gt;gbTodasRejillasGenero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTodasRejillasGenero.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;gbTodasRejillasGenero.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btBuscarDosCampos.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AQMBAT8ASf/Z
+</value>
+  </data>
+  <data name="btBuscarDosCampos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btBuscarDosCampos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btBuscarDosCampos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 53</value>
+  </data>
+  <data name="btBuscarDosCampos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 26</value>
+  </data>
+  <data name="btBuscarDosCampos.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btBuscarDosCampos.Name" xml:space="preserve">
+    <value>btBuscarDosCampos</value>
+  </data>
+  <data name="&gt;&gt;btBuscarDosCampos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btBuscarDosCampos.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;btBuscarDosCampos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="etFechaInicio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etFechaInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 23</value>
+  </data>
+  <data name="etFechaInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 15</value>
+  </data>
+  <data name="etFechaInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="etFechaInicio.Text" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="&gt;&gt;etFechaInicio.Name" xml:space="preserve">
+    <value>etFechaInicio</value>
+  </data>
+  <data name="&gt;&gt;etFechaInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etFechaInicio.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;etFechaInicio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="etFechaFin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etFechaFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 59</value>
+  </data>
+  <data name="etFechaFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="etFechaFin.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="etFechaFin.Text" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="&gt;&gt;etFechaFin.Name" xml:space="preserve">
+    <value>etFechaFin</value>
+  </data>
+  <data name="&gt;&gt;etFechaFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etFechaFin.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;etFechaFin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dateTimePickerFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 55</value>
+  </data>
+  <data name="dateTimePickerFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="dateTimePickerFin.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerFin.Name" xml:space="preserve">
+    <value>dateTimePickerFin</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerFin.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerFin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dateTimePickerInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 19</value>
+  </data>
+  <data name="dateTimePickerInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 23</value>
+  </data>
+  <data name="dateTimePickerInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerInicio.Name" xml:space="preserve">
+    <value>dateTimePickerInicio</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerInicio.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerInicio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="etFin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 59</value>
+  </data>
+  <data name="etFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="etFin.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="etFin.Text" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="&gt;&gt;etFin.Name" xml:space="preserve">
+    <value>etFin</value>
+  </data>
+  <data name="&gt;&gt;etFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etFin.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;etFin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="etInicio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="etInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 59</value>
+  </data>
+  <data name="etInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 15</value>
+  </data>
+  <data name="etInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="etInicio.Text" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="&gt;&gt;etInicio.Name" xml:space="preserve">
+    <value>etInicio</value>
+  </data>
+  <data name="&gt;&gt;etInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;etInicio.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;etInicio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="rbTodasRejillasTodaTabla.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasTodaTabla.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 21</value>
+  </data>
+  <data name="rbTodasRejillasTodaTabla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 19</value>
+  </data>
+  <data name="rbTodasRejillasTodaTabla.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="rbTodasRejillasTodaTabla.Text" xml:space="preserve">
+    <value>Reset Busq.</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTodaTabla.Name" xml:space="preserve">
+    <value>rbTodasRejillasTodaTabla</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTodaTabla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTodaTabla.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTodaTabla.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="rbTodasRejillasPais.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasPais.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasPais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 11</value>
+  </data>
+  <data name="rbTodasRejillasPais.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasPais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 19</value>
+  </data>
+  <data name="rbTodasRejillasPais.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="rbTodasRejillasPais.Text" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPais.Name" xml:space="preserve">
+    <value>rbTodasRejillasPais</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPais.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPais.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="rbTodasRejillasEdad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasEdad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 11</value>
+  </data>
+  <data name="rbTodasRejillasEdad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="rbTodasRejillasEdad.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="rbTodasRejillasEdad.Text" xml:space="preserve">
+    <value>Edad</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasEdad.Name" xml:space="preserve">
+    <value>rbTodasRejillasEdad</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasEdad.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasEdad.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="rbTodasRejillasDP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasDP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasDP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 31</value>
+  </data>
+  <data name="rbTodasRejillasDP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasDP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 19</value>
+  </data>
+  <data name="rbTodasRejillasDP.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rbTodasRejillasDP.Text" xml:space="preserve">
+    <value>Deporte y Posicion</value>
+  </data>
+  <data name="rbTodasRejillasDP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDP.Name" xml:space="preserve">
+    <value>rbTodasRejillasDP</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDP.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDP.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 11</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="rbTodasRejillasPosicion.Text" xml:space="preserve">
+    <value>Posición</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPosicion.Name" xml:space="preserve">
+    <value>rbTodasRejillasPosicion</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPosicion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPosicion.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasPosicion.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rbTodasRejillasFecha.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasFecha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasFecha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="rbTodasRejillasFecha.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasFecha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="rbTodasRejillasFecha.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="rbTodasRejillasFecha.Text" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasFecha.Name" xml:space="preserve">
+    <value>rbTodasRejillasFecha</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasFecha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasFecha.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasFecha.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="rbTodasRejillasTipoRejilla.Text" xml:space="preserve">
+    <value>Tipo Rejilla</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTipoRejilla.Name" xml:space="preserve">
+    <value>rbTodasRejillasTipoRejilla</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTipoRejilla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTipoRejilla.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasTipoRejilla.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 11</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="rbTodasRejillasDeporte.Text" xml:space="preserve">
+    <value>Deporte</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDeporte.Name" xml:space="preserve">
+    <value>rbTodasRejillasDeporte</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDeporte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDeporte.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;rbTodasRejillasDeporte.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tbFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 55</value>
+  </data>
+  <data name="tbFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="tbFin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbFin.Name" xml:space="preserve">
+    <value>tbFin</value>
+  </data>
+  <data name="&gt;&gt;tbFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFin.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;tbFin.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tbInicio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 55</value>
+  </data>
+  <data name="tbInicio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="tbInicio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbInicio.Name" xml:space="preserve">
+    <value>tbInicio</value>
+  </data>
+  <data name="&gt;&gt;tbInicio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbInicio.Parent" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;tbInicio.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tabPageRejillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabPageRejillas.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageRejillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 85</value>
+  </data>
+  <data name="tabPageRejillas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageRejillas.Text" xml:space="preserve">
+    <value>Burcar Entre Todas Las Rejillas</value>
+  </data>
+  <data name="&gt;&gt;tabPageRejillas.Name" xml:space="preserve">
+    <value>tabPageRejillas</value>
+  </data>
+  <data name="&gt;&gt;tabPageRejillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageRejillas.Parent" xml:space="preserve">
+    <value>tabUserRejillas</value>
+  </data>
+  <data name="&gt;&gt;tabPageRejillas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabUserRejillas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 91</value>
+  </data>
+  <data name="tabUserRejillas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>699, 113</value>
+  </data>
+  <data name="tabUserRejillas.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tabUserRejillas.Name" xml:space="preserve">
+    <value>tabUserRejillas</value>
+  </data>
+  <data name="&gt;&gt;tabUserRejillas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabUserRejillas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabUserRejillas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btCargarRejilla.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="btCargarRejilla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 45</value>
+  </data>
+  <data name="btCargarRejilla.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="btCargarRejilla.Text" xml:space="preserve">
+    <value>Cargar Rejilla al Programa</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejilla.Name" xml:space="preserve">
+    <value>btCargarRejilla</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejilla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejilla.Parent" xml:space="preserve">
+    <value>gbBotones</value>
+  </data>
+  <data name="&gt;&gt;btCargarRejilla.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbBotones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 96</value>
+  </data>
+  <data name="gbBotones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 120</value>
+  </data>
+  <data name="gbBotones.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;gbBotones.Name" xml:space="preserve">
+    <value>gbBotones</value>
+  </data>
+  <data name="&gt;&gt;gbBotones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbBotones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbBotones.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>984, 630</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

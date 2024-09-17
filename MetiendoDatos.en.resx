@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btCrearRejilla.Text" xml:space="preserve">
+    <value>Create grid</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="etNumFilas.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="etNumFilas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="etNumFilas.Text" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="etNumColumnas.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etNumColumnas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="etNumColumnas.Text" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="etValorInicial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etValorInicial.Text" xml:space="preserve">
+    <value>Initial value</value>
+  </data>
+  <data name="etIncrementoRejilla.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etIncrementoRejilla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 15</value>
+  </data>
+  <data name="etIncrementoRejilla.Text" xml:space="preserve">
+    <value>Increase of the values</value>
+  </data>
+  <data name="botonTamaño.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxAleatorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxAleatorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 19</value>
+  </data>
+  <data name="checkBoxAleatorio.Text" xml:space="preserve">
+    <value>Random (seconds)</value>
+  </data>
+  <data name="cbTiempoLimite.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbTiempoLimite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 19</value>
+  </data>
+  <data name="cbTiempoLimite.Text" xml:space="preserve">
+    <value>Time out (seconds)</value>
+  </data>
+  <data name="gbAleatorioTLimite.Text" xml:space="preserve">
+    <value>Random Buttons and Time out</value>
+  </data>
+  <data name="etRapidoTrackBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etRapidoTrackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 153</value>
+  </data>
+  <data name="etRapidoTrackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 15</value>
+  </data>
+  <data name="etRapidoTrackBar.Text" xml:space="preserve">
+    <value>Quick</value>
+  </data>
+  <data name="etNormalTrackBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etNormalTrackBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 153</value>
+  </data>
+  <data name="etNormalTrackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="etNormalTrackBar.Text" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="etLentoTrackBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etLentoTrackBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 15</value>
+  </data>
+  <data name="etLentoTrackBar.Text" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="deslizadorVelocidad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbSinlinea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbSinlinea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 19</value>
+  </data>
+  <data name="rbSinlinea.Text" xml:space="preserve">
+    <value>Without Line</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="pBColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbAleatorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbAleatorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="rbAleatorio.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="rbVertical.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 19</value>
+  </data>
+  <data name="rbVertical.Text" xml:space="preserve">
+    <value>Upright line</value>
+  </data>
+  <data name="pBGrosor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbHorizontal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbHorizontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 19</value>
+  </data>
+  <data name="rbHorizontal.Text" xml:space="preserve">
+    <value>Horizontal Line</value>
+  </data>
+  <data name="btColorLinea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbDistraccionLinea.Text" xml:space="preserve">
+    <value>Distraction Line</value>
+  </data>
+  <data name="rbLatencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="rbLatencia.Text" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="rbGrafica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 19</value>
+  </data>
+  <data name="rbGrafica.Text" xml:space="preserve">
+    <value>Graphic</value>
+  </data>
+  <data name="btControlTachado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btControlTachado.Text" xml:space="preserve">
+    <value>Labeled Control</value>
+  </data>
+  <data name="etOrdenGrafica.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etOrdenGrafica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 15</value>
+  </data>
+  <data name="etOrdenGrafica.Text" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="btObservaciones.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btObservaciones.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etValorVarianzaCorreccion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etValorMediaCorreccion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etMediaCorreccion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etMediaCorreccion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 15</value>
+  </data>
+  <data name="etMediaCorreccion.Text" xml:space="preserve">
+    <value>Revised Average:</value>
+  </data>
+  <data name="etValorTiempoTareaPreliminar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloTiempoTareaPreliminar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloTiempoTareaPreliminar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 15</value>
+  </data>
+  <data name="etTituloTiempoTareaPreliminar.Text" xml:space="preserve">
+    <value>Preliminary Task Time:</value>
+  </data>
+  <data name="etValorTiempoCorreccionEfectuada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTiempoCorreccionEfectuada.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTiempoCorreccionEfectuada.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="etTiempoCorreccionEfectuada.Text" xml:space="preserve">
+    <value>Adjustment:</value>
+  </data>
+  <data name="etValorTiempoCorregido.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTiempoCorregido.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTiempoCorregido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="etTiempoCorregido.Text" xml:space="preserve">
+    <value>Revised Time:</value>
+  </data>
+  <data name="etVarianza.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloVarianza.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloVarianza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="etTituloVarianza.Text" xml:space="preserve">
+    <value>Variance:</value>
+  </data>
+  <data name="etTitulovalorMinimo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTitulovalorMinimo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 15</value>
+  </data>
+  <data name="etTitulovalorMinimo.Text" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="etTituloValorMaximo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloValorMaximo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="etTituloValorMaximo.Text" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="etValorMedia.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloValorMedia.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloValorMedia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 15</value>
+  </data>
+  <data name="etTituloValorMedia.Text" xml:space="preserve">
+    <value>Average:</value>
+  </data>
+  <data name="etValorMinimo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etValorMaximo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTiempoTranscurrido.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTiempoTotal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTiempoTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 15</value>
+  </data>
+  <data name="etTiempoTotal.Text" xml:space="preserve">
+    <value>Total Time:</value>
+  </data>
+  <data name="pBLienzoDibujo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gbGrafica.Text" xml:space="preserve">
+    <value>Graphic</value>
+  </data>
+  <data name="gbTamañoBoton.Text" xml:space="preserve">
+    <value>Size Button</value>
+  </data>
+  <data name="cbNoGuardarBD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 19</value>
+  </data>
+  <data name="cbNoGuardarBD.Text" xml:space="preserve">
+    <value>Don´t save in database</value>
+  </data>
+  <data name="btEmparejar.Text" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="cbEmparejar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="cbEmparejar.Text" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="btProgramarColores.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btProgramarColores.Text" xml:space="preserve">
+    <value>Programme grid</value>
+  </data>
+  <data name="cbColoresFondo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbColoresFondo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 19</value>
+  </data>
+  <data name="cbColoresFondo.Text" xml:space="preserve">
+    <value>Background colors</value>
+  </data>
+  <data name="btColoresFondo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColoresFondo.Text" xml:space="preserve">
+    <value>Background colors</value>
+  </data>
+  <data name="cbImprimir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbImprimir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="cbImprimir.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="rbWingdings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbTareaPreliminar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbTareaPreliminar.Text" xml:space="preserve">
+    <value>Preliminary task</value>
+  </data>
+  <data name="rbAbecedario.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbAbecedario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 19</value>
+  </data>
+  <data name="rbAbecedario.Text" xml:space="preserve">
+    <value>Alphabet</value>
+  </data>
+  <data name="rbImagenes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbImagenes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="rbImagenes.Text" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="rbLetras.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbLetras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="rbLetras.Text" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="rbColores.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbColores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="rbColores.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="rbNumerica.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbNumerica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="rbNumerica.Text" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="gbRejilla.Text" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="btAñadirListaMusica.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btAñadirListaMusica.Text" xml:space="preserve">
+    <value>Add Playlist</value>
+  </data>
+  <data name="btPlaySong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btPlaySong.Text" xml:space="preserve">
+    <value>Play Song</value>
+  </data>
+  <data name="btBorrarCancion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btBorrarCancion.Text" xml:space="preserve">
+    <value>Remove Songs / Playlist</value>
+  </data>
+  <data name="rbSinSonido.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbSinSonido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 19</value>
+  </data>
+  <data name="rbSinSonido.Text" xml:space="preserve">
+    <value>Without Sound</value>
+  </data>
+  <data name="btStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="btPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btPlay.Text" xml:space="preserve">
+    <value>Play List / Metronome</value>
+  </data>
+  <data name="rbMusica.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbMusica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="rbMusica.Text" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="rbMetronomo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbMetronomo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 19</value>
+  </data>
+  <data name="rbMetronomo.Text" xml:space="preserve">
+    <value>Metronome (tenth of seconds)</value>
+  </data>
+  <data name="btAbrirMusica.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btAbrirMusica.Text" xml:space="preserve">
+    <value>Add Songs</value>
+  </data>
+  <data name="gbMusica.Text" xml:space="preserve">
+    <value>Distraction Sound</value>
+  </data>
+  <data name="etErrorNumerico.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbAscendente.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbAscendente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="rbAscendente.Text" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="rbDescendente.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbDescendente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 19</value>
+  </data>
+  <data name="rbDescendente.Text" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="gbOrden.Text" xml:space="preserve">
+    <value>Order of Corrected</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="etTituloColoresBotones2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloColoresBotones2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 10</value>
+  </data>
+  <data name="etTituloColoresBotones2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="etTituloColoresBotones2.Text" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
+  <data name="etTituloBotonesColores1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloBotonesColores1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 36</value>
+  </data>
+  <data name="etTituloBotonesColores1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 15</value>
+  </data>
+  <data name="etTituloBotonesColores1.Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbCantidadBotones.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColor4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColor8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColor3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColor7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColor5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColor6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btColor1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="rbLetras75.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbLetras50.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbLetras25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbLetrasCero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbLetrasCero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="rbLetrasCero.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="etTituloLetras.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloLetras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 15</value>
+  </data>
+  <data name="etTituloLetras.Text" xml:space="preserve">
+    <value>List Items</value>
+  </data>
+  <data name="btLetras9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLetras8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLetras6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLetras5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLetras7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLetras3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLetras4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLetras2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btBorrarLista.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btBorrarLista.Text" xml:space="preserve">
+    <value>Clear List</value>
+  </data>
+  <data name="btAñadirLetras.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btAñadirLetras.Text" xml:space="preserve">
+    <value>Template Items</value>
+  </data>
+  <data name="btLetras1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 10</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 35</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 15</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbCantidadBotonesImagenes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="rbAbcAleatorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="rbAbcAleatorio.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="rbAscAbecedario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="rbAscAbecedario.Text" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="rbDescAbecedario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 19</value>
+  </data>
+  <data name="rbDescAbecedario.Text" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="gbOrdenTachadoAbecedario.Text" xml:space="preserve">
+    <value>Order of Corrected</value>
+  </data>
+  <data name="etTituloAbecedario.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etTituloAbecedario.Text" xml:space="preserve">
+    <value>Initial value</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Alphabet</value>
+  </data>
+  <data name="labelWinding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelWinding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="labelWinding.Text" xml:space="preserve">
+    <value>Buttons quantity</value>
+  </data>
+  <data name="btVisualizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btVisualizar.Text" xml:space="preserve">
+    <value>Display items to delete</value>
+  </data>
+  <data name="rbWin50.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbWin75.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbWin25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btWi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btWi.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="abrirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="abrirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="guardarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="guardarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 6</value>
+  </data>
+  <data name="pantallaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="pantallaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="informeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="informeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Report + Graphic</value>
+  </data>
+  <data name="informeToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="informeToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="imprimirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="imprimirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 6</value>
+  </data>
+  <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="salirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="archivoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="archivoToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="exportarExcelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="exportarExcelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="exportarWordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="exportarWordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export Word</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="guardarPreferenciasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="guardarPreferenciasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Saved Preferences File</value>
+  </data>
+  <data name="cargarPreferenciasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="cargarPreferenciasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open Preferences File</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 6</value>
+  </data>
+  <data name="baseDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="baseDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Users &amp; grids</value>
+  </data>
+  <data name="herramientasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="herramientasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="crearToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="crearToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="reiniciarBDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="reiniciarBDToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restart Database Less User Table</value>
+  </data>
+  <data name="backupBDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="backupBDToolStripMenuItem.Text" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="restaurarBackUpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="restaurarBackUpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Restore BackUp</value>
+  </data>
+  <data name="guardarDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="guardarDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="baseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="baseDeDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>DataBase</value>
+  </data>
+  <data name="acercaDeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="acercaDeToolStripMenuItem.Text" xml:space="preserve">
+    <value>About as</value>
+  </data>
+  <data name="ayudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="ayudaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="reproductorWindowsMedia.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
+        LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAhU3lzdGVtLldpbmRvd3MuRm9ybXMu
+        QXhIb3N0K1N0YXRlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAALcAAAACAQAAAAEAAAAAAAAAAAAAAACi
+        AAAAAAMAAAgAAAAAAAUAAAAAAAAA8D8DAAAAAAAFAAAAAAAAAAAACAACAAAAAAADAAEAAAALAP//AwAA
+        AAAACwD//wgAAgAAAAAAAwAyAAAACwAAAAgACgAAAGYAdQBsAGwAAAALAAAACwAAAAsA//8LAP//CwAA
+        AAgAAgAAAAAACAACAAAAAAAIAAIAAAAAAAgAAgAAAAAACwAAAHYXAACUCAAACw==
+</value>
+  </data>
+  <data name="gbReproductor.Text" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="etCodigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="etCodigo.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="btBuscarUsuario.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        /gYGCAeeZmdAmAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="etFecha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etFecha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 15</value>
+  </data>
+  <data name="etFecha.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="tbApellidos.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="etApellidos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etApellidos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="etApellidos.Text" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="tbNombre.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="etNombre.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="etNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="etNombre.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="gbUsuarioFecha.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="btUk.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAASAIEAAP7+/gAA/v4AAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQAAAAAACwAAAAAIAAS
+        AAAIhAAFCAAAIIDBgwcBCBRYECFCggsXEnRoUKFEigEgSrTIsGHCiB4rchzYUGPHjxdFggypcmNGkBlH
+        TsTYsuPKlRQJ6tw5MuJKnjp9Ch1KtKjRo0iTKl3KtCNQk0Wf6swpsypOmjFxyszq0iHUmS9Tcj05lqRX
+        mA+tdj0rNq1QsDnRYtQYEAA7
+</value>
+  </data>
+  <data name="btUk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btSp.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdA
+        SFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2Nj
+        Y2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCABkALkDASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBt74g1hNQu0j1B0SO4kRVEUZwA5AHK56Cof+Eh1v8A6Ccn/fqL
+        /wCIqnff8hO+/wCvub/0Y1Q1wzqSUmrn1WHwdCVGEnFXaX5Gl/wkOt/9BOT/AL9Rf/EUf8JDrf8A0E5P
+        +/UX/wARWbRU+1n3N/qOH/kRpf8ACQ63/wBBOT/v1F/8RR/wkOt/9BOT/v1F/wDEVm0Ue1n3D6jh/wCR
+        Gl/wkOt/9BOT/v1F/wDEUf8ACQ63/wBBOT/v1F/8RWbRR7WfcPqOH/kRpf8ACQ63/wBBOT/v1F/8RR/w
+        kOt/9BOT/v1F/wDEVm0Ue1n3D6jh/wCRGl/wkOt/9BOT/v1F/wDEUf8ACQ63/wBBOT/v1F/8RWbRR7Wf
+        cPqOH/kRpf8ACQ63/wBBOT/v1F/8RR/wkOt/9BOT/v1F/wDEVm0Ue1n3D6jh/wCRGl/wkOt/9BOT/v1F
+        /wDEUf8ACQ63/wBBOT/v1F/8RWbRR7WfcPqOH/kRpf8ACQ63/wBBOT/v1F/8RR/wkOt/9BOT/v1F/wDE
+        Vm0Ue1n3D6jh/wCRGl/wkOt/9BOT/v1F/wDEUf8ACQ63/wBBOT/v1F/8RWbRR7WfcPqOH/kRpf8ACQ63
+        /wBBOT/v1F/8RR/wkOt/9BOT/v1F/wDEVm0Ue1n3D6jh/wCRF+bxJrccLuNTkyqkjMUXp/u16XXkF1/x
+        6zf7h/lXr9dNCTknc8PNKNOlOKgraHld9/yE77/r7m/9GNUNTX3/ACE77/r7m/8ARjVDXJP4me/hf4EP
+        RfkFFFFSdAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBFdf8es3+4f5V6/XkF1/wAe
+        s3+4f5V6/XXh9mfO5z8cfQ4uLw5b38l1cyXVyjPdz5VCmBiVh3UntUn/AAiFp/z+3v5x/wDxFaulf8e8
+        3/X3cf8Ao56uV83iMTVjWmlLq/zOOFeqopKT+9nPf8Ihaf8AP7e/nH/8RR/wiFp/z+3v5x//ABFdDRWP
+        1ut/MV7et/O/vZz3/CIWn/P7e/nH/wDEUf8ACIWn/P7e/nH/APEV0NFH1ut/MHt6387+9nPf8Ihaf8/t
+        7+cf/wARR/wiFp/z+3v5x/8AxFdDRR9brfzB7et/O/vZz3/CIWn/AD+3v5x//EUf8Ihaf8/t7+cf/wAR
+        XQ0UfW638we3rfzv72c9/wAIhaf8/t7+cf8A8RR/wiFp/wA/t7+cf/xFdDRR9brfzB7et/O/vZz3/CIW
+        n/P7e/nH/wDEUf8ACIWn/P7e/nH/APEV0NFH1ut/MHt6387+9nPf8Ihaf8/t7+cf/wARR/wiFp/z+3v5
+        x/8AxFdDRR9brfzB7et/O/vZz3/CIWn/AD+3v5x//EUf8Ihaf8/t7+cf/wARXQ0UfW638we3rfzv72c9
+        /wAIhaf8/t7+cf8A8RR/wiFp/wA/t7+cf/xFdDRR9brfzB7et/O/vZz3/CIWn/P7e/nH/wDEUf8ACIWn
+        /P7e/nH/APEV0NFH1ut/MHt6387+9nKap4WtbfSrydbu7Zo4HcBimDhSeflruqwtd/5AOo/9e0n/AKCa
+        3a9zKqs6kJOTvqc1acptczb9TE0r/j3m/wCvu4/9HPVyqelf8e83/X3cf+jnq5Xg4r+PP1f5lR2QUUUV
+        gMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAo67/yAdR/69pP/AEE1u1ha7/yAdR/6
+        9pP/AEE1u19Fk3wS9TGpuebXGqajbX17Fb3rxRLdz4QIhx+8Y91Jpn9t6v8A9BGT/v1H/wDE1Xvv+Qnf
+        f9fc3/oxqhrWpSpubbit+yPqMPhKMqMG462X5F7+29X/AOgjJ/36j/8AiaP7b1f/AKCMn/fqP/4mqNFR
+        7Kn/ACr7kbfU6H8pe/tvV/8AoIyf9+o//iaP7b1f/oIyf9+o/wD4mqNFHsqf8q+5B9Tofyl7+29X/wCg
+        jJ/36j/+Jo/tvV/+gjJ/36j/APiao0Ueyp/yr7kH1Oh/KXv7b1f/AKCMn/fqP/4mj+29X/6CMn/fqP8A
+        +JqjRR7Kn/KvuQfU6H8pe/tvV/8AoIyf9+o//iaP7b1f/oIyf9+o/wD4mqNFHsqf8q+5B9Tofyl7+29X
+        /wCgjJ/36j/+Jo/tvV/+gjJ/36j/APiao0Ueyp/yr7kH1Oh/KXv7b1f/AKCMn/fqP/4mj+29X/6CMn/f
+        qP8A+JqjRR7Kn/KvuQfU6H8pe/tvV/8AoIyf9+o//iaP7b1f/oIyf9+o/wD4mqNFHsqf8q+5B9Tofyl7
+        +29X/wCgjJ/36j/+Jo/tvV/+gjJ/36j/APiao0Ueyp/yr7kH1Oh/KXv7b1f/AKCMn/fqP/4mj+29X/6C
+        Mn/fqP8A+JqjRR7Kn/KvuQfU6H8pPe6xqktjcRyX8jI8bKymOMZBHI4WvU68guv+PWb/AHD/ACr1+u7C
+        xjFPlVjw81pQpTioK2h5Xff8hO+/6+5v/RjVDU19/wAhO+/6+5v/AEY1Q1zz+JnvYX+BD0X5BRRRUnQF
+        FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUARXX/HrN/uH+Vev15Bdf8AHrN/uH+Vev11
+        4fZnzuc/HH0OcuPBtlPczTm7vEMsjSFVZMAsSTjK+pqP/hCLH/n+vv8AvqP/AOIoorfkj2PMWJrJWU39
+        7D/hCLH/AJ/r7/vqP/4ij/hCLH/n+vv++o//AIiiilyR7B9ar/zv72H/AAhFj/z/AF9/31H/APEUf8IR
+        Y/8AP9ff99R//EUUUckewfWq/wDO/vYf8IRY/wDP9ff99R//ABFH/CEWP/P9ff8AfUf/AMRRRRyR7B9a
+        r/zv72H/AAhFj/z/AF9/31H/APEUf8IRY/8AP9ff99R//EUUUckewfWq/wDO/vYf8IRY/wDP9ff99R//
+        ABFH/CEWP/P9ff8AfUf/AMRRRRyR7B9ar/zv72H/AAhFj/z/AF9/31H/APEUf8IRY/8AP9ff99R//EUU
+        UckewfWq/wDO/vYf8IRY/wDP9ff99R//ABFH/CEWP/P9ff8AfUf/AMRRRRyR7B9ar/zv72H/AAhFj/z/
+        AF9/31H/APEUf8IRY/8AP9ff99R//EUUUckewfWq/wDO/vYf8IRY/wDP9ff99R//ABFH/CEWP/P9ff8A
+        fUf/AMRRRRyR7B9ar/zv72H/AAhFj/z/AF9/31H/APEUf8IRY/8AP9ff99R//EUUUckewfWq/wDO/vYj
+        eBrB1Kte3xDDBG6P/wCIrqKKKpJLYznUnU1m2/U//9k=
+</value>
+  </data>
+  <data name="btSp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabDeportista.Text" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="rbMujer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 8</value>
+  </data>
+  <data name="rbMujer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="rbMujer.Text" xml:space="preserve">
+    <value>Woman</value>
+  </data>
+  <data name="rbHombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 8</value>
+  </data>
+  <data name="rbHombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="rbHombre.Text" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="tabPage10.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="rbDer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="rbDer.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="rbIzq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 19</value>
+  </data>
+  <data name="rbIzq.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="gbDeportista.Text" xml:space="preserve">
+    <value>Sports</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EEAT Training and Evaluating The Care</value>
+  </data>
+</root>
